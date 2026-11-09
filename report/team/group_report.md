@@ -20,12 +20,12 @@
 |---:|---|---|---|---|---|
 | 1 | KimY | Khi làm bài tập nhóm nhưng có thành viên thường xuyên chậm tiến độ, tôi muốn biết rõ tình trạng công việc và những khó khăn của từng người để tránh ảnh hưởng đến deadline chung |  Nhóm trưởng, thành viên nhóm| Nhóm trưởng phải liên tục hỏi tiến độ từng thành viên, chờ phản hồi và tổng hợp thông tin thủ công; khó biết nguyên nhân chậm tiến độ.| |
 | 2 | KimY| Khi có một vấn đề, nghiên cứu mà tôi cảm thấy mới và quan tâm, tôi cần tìm hiểu, đọc các bài báo liên quan để rút ra insight cho bản thân | Sinh viên| Mất nhiều thời gian tìm kiếm, chọn lọc, đọc hiểu và tổng hợp tài liệu. Lần gần nhất mất khoảng 3 tiếng.| |
-| 3 | Thao | Sinh viên mất nhiều thời gian tìm kiếm, đọc và tổng hợp thông tin từ nhiều tài liệu khác nhau khi làm bài tập, tiểu luận và nghiên cứu. | | | |
-| 4 | Thao | Sinh viên gặp khó khăn khi quản lý nhiều deadline và sắp xếp thứ tự ưu tiên các nhiệm vụ từ nhiều môn học. | | | |
-| 5 | Thao | Sinh viên gặp khó khăn trong việc phối hợp và theo dõi tiến độ khi làm bài tập nhóm do các thành viên cập nhật thông tin không đồng đều.|  | | |
-| 6 | Tran | Rà soát sơ bộ định dạng & tiêu chí bài tập lớn / tiểu luận (#3) | | | |
-| 7 | Tran | Giải đáp thắc mắc lặp lại về quy chế / quy định làm đồ án (#1) | | | |
-| 8 | Tran | Trích xuất luận điểm chính từ bài báo khoa học tiếng Anh (#4) | | | |
+| 3 | Thao | Sinh viên mất nhiều thời gian tìm kiếm, đọc và tổng hợp thông tin từ nhiều tài liệu khác nhau khi làm bài tập, tiểu luận và nghiên cứu. | Sinh viên | Mất thời gian tìm kiếm | |
+| 4 | Thao | Sinh viên gặp khó khăn khi quản lý nhiều deadline và sắp xếp thứ tự ưu tiên các nhiệm vụ từ nhiều môn học. | Sinh viên| Khó khăn quản lý lịch trình bản thân | |
+| 5 | Thao | Sinh viên gặp khó khăn trong việc phối hợp và theo dõi tiến độ khi làm bài tập nhóm do các thành viên cập nhật thông tin không đồng đều.| Sinh viến | Khó khăn phối hợp nhóm | |
+| 6 | Tran | Rà soát sơ bộ định dạng & tiêu chí bài tập lớn / tiểu luận | | | |
+| 7 | Tran | Giải đáp thắc mắc lặp lại về quy chế / quy định làm đồ án | | | |
+| 8 | Tran | Trích xuất luận điểm chính từ bài báo khoa học tiếng Anh | | | |
 | 9 | Anh | 3. Reproduce paper | | | |
 | 10 | Anh | 8. Debug kết quả nghiên cứu | | | |
 | 11 | Anh | 2. Xây dựng nền tảng | | | |
