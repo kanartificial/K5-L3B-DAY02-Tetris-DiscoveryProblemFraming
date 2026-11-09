@@ -64,17 +64,9 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 | # | Candidate (Tóm tắt) | Actor rõ | Quy trình rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh được No AI/Rule/Workflow/Agent | Nhóm hiểu domain | Tổng |
 |---:|---|---:|---:|---:|---:|---:|---:|---:|---:|
-| 1 | Theo dõi tiến độ & khó khăn bài tập nhóm (KimY) | 4 | 4 | 4 | 4 | 4 | 4 | 5 | **29** |
-| 2 | Đọc và tìm hiểu bài báo mới để rút insight (KimY) | 4 | 3 | 3 | 3 | 3 | 4 | 4 | **24** |
-| 3 | Tìm kiếm, đọc & tổng hợp tài liệu tiểu luận (Thao) | 5 | 4 | 4 | 4 | 4 | 5 | 5 | **31** |
-| 4 | Quản lý deadline & sắp xếp ưu tiên môn học (Thao) | 5 | 4 | 4 | 4 | 4 | 4 | 5 | **30** |
-| 5 | Phối hợp & theo dõi tiến độ nhóm không đồng đều (Thao) | 5 | 4 | 4 | 4 | 4 | 4 | 5 | **30** |
 | 6 | Rà soát sơ bộ định dạng & tiêu chí bài tập lớn (Tran) | 4 | 5 | 4 | 4 | 5 | 5 | 5 | **32** |
 | 7 | Giải đáp thắc mắc lặp lại về quy chế đồ án (Tran) | 4 | 5 | 4 | 4 | 5 | 5 | 5 | **32** |
-| 8 | Trích xuất luận điểm chính từ bài báo TA (Tran) | 4 | 4 | 4 | 4 | 4 | 5 | 4 | **29** |
-| 9 | Reproduce paper (Anh) | 3 | 3 | 3 | 4 | 2 | 3 | 4 | **22** |
-| 10 | Debug kết quả nghiên cứu (Anh) | 3 | 3 | 3 | 4 | 2 | 3 | 4 | **22** |
-| 11 | Xây dựng nền tảng (Anh) | 2 | 2 | 2 | 3 | 3 | 2 | 3 | **17** |
+| 5 | Phối hợp & theo dõi tiến độ nhóm không đồng đều (Thao) | 5 | 4 | 4 | 4 | 4 | 4 | 5 | **30** |
 
 
 **Candidate được chọn:**
@@ -92,14 +84,10 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 **Vì sao loại các candidate còn lại:**
 
-- **#1, #5 — Theo dõi tiến độ và phối hợp nhóm:** Có pain point thực tế nhưng phụ thuộc vào mức độ cập nhật thông tin và sự hợp tác của các thành viên. Khó đánh giá hiệu quả nếu không có dữ liệu hoạt động nhóm thực tế.
-- **#2, #3, #8 — Tìm kiếm, đọc hiểu và tổng hợp tài liệu:** Có tiềm năng ứng dụng AI cao nhưng phạm vi rộng, dễ trùng lặp với các công cụ AI hỗ trợ nghiên cứu hiện có. Cần giới hạn rõ hơn phạm vi tài liệu và đầu ra.
-- **#4 — Quản lý deadline và ưu tiên công việc:** Có thể giải quyết bằng các công cụ quản lý công việc và quy tắc lập lịch thông thường; chưa thể hiện rõ lợi thế cần thiết của AI.
+- **#8 — Tìm kiếm, đọc hiểu và tổng hợp tài liệu:** Có tiềm năng ứng dụng AI cao nhưng phạm vi rộng, dễ trùng lặp với các công cụ AI hỗ trợ nghiên cứu hiện có. Cần giới hạn rõ hơn phạm vi tài liệu và đầu ra.
 - **#7 — Giải đáp thắc mắc về quy chế đồ án:** Có quy trình và Actor rõ ràng nhưng phạm vi nội dung tương đối hẹp, có thể giải quyết bằng hệ thống tra cứu tài liệu hoặc chatbot RAG đơn giản.
-- **#9, #10 — Reproduce paper và Debug kết quả nghiên cứu:** Đòi hỏi kiến thức chuyên môn, môi trường thực nghiệm và dữ liệu nghiên cứu cụ thể; khó chuẩn hóa để triển khai và đánh giá trong phạm vi Lab.
-- **#11 — Xây dựng nền tảng kiến thức:** Pain point còn chung chung, chưa xác định rõ quy trình, đầu ra và tiêu chí đo lường.
 
-**Xử lý bất đồng (nếu có):**
+**Xử lý bất đồng (nếu có):** Thảo luận, bất đồng về camdidate Tìm kiếm, đọc hiểu và tổng hợp tài liệu và Rà soát sơ bộ định dạng và tiêu chí bài tập lớn, sau quá trình nghiên cứu và đánh giá lại thì chốt candidate Rà soát sơ bộ định dạng và tiêu chí bài tập lớn
 
 ---
 
