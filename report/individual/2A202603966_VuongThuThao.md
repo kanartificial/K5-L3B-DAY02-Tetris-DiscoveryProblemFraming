@@ -186,16 +186,16 @@ Tôi lựa chọn tiếp tục đào sâu vấn đề này thay vì mặc địn
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Đề xuất các vấn đề sinh viên gặp phải. | Bổ sung candidate cho nhóm. |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: Pain point có thực tế và đo lường được không? | Làm rõ vấn đề. |
+| Nhận phản biện | Câu hỏi tôi nhận được: Vấn đề có khả thi không? Tôi đã sửa gì: Làm rõ Actor và bottleneck. | Hoàn thiện Problem Card. |
+| Gom cluster / cây OST | Phân nhóm các candidate. | Xác định các nhóm vấn đề chính. |
+| Chọn candidate problem | Tham gia chấm điểm shortlist. | Chọn candidate #6 (32 điểm). |
+| Kiểm chứng / research | Phân tích quy trình rà soát bài. | Xác định bottleneck 8 phút/bài. |
+| Quy trình nhóm | Xây dựng quy trình trước/sau. | Đề xuất giảm 21 xuống 16 phút/bài. |
+| Problem Statement | Xác định rõ người dùng và pain point. | Thu hẹp phạm vi bài toán. |
+| Mức can thiệp AI | So sánh 4 mức can thiệp AI. | Chọn Workflow. |
+| Quyết định | Xác định boundary và fallback. | Giảng viên giữ quyền quyết định điểm. |
 
 ---
 
@@ -205,10 +205,10 @@ Tôi lựa chọn tiếp tục đào sâu vấn đề này thay vì mặc địn
 |---|---|---|---|---|
 | CP1 Scan | Tìm kiếm và phân tích Pain Point của sinh viên, gợi ý hướng ứng dụng AI. | Giúp mở rộng ý tưởng và hệ thống hóa các vấn đề. | Một số ý tưởng tập trung vào AI hơn là nhu cầu thực tế; thiếu dữ liệu xác thực. | Loại bỏ các ý tưởng chưa phù hợp, chọn những vấn đề có ảnh hưởng rõ ràng và cần khảo sát thêm. |
 | CP2 Problem Card | Hỗ trợ xây dựng Job Story, quy trình, Bottleneck, Impact và giải pháp cho từng vấn đề. | Giúp cấu trúc hóa và phân tích vấn đề có hệ thống. | Một số nhận định còn chung chung, số liệu mục tiêu chưa có căn cứ thực tế. | Làm rõ quy trình, đánh dấu giả thuyết cần khảo sát và chọn vấn đề tổng hợp tài liệu làm hướng ưu tiên. |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP4 Research | Hỗ trợ phân tích pain point và tìm hướng giải quyết. | Gợi ý các vấn đề và cách kiểm chứng. | Đưa ra nhận định chung, thiếu bằng chứng thực tế. | Thu hẹp vấn đề và xác định chỉ số cần đo. |
+| CP5 Quy trình | Xây dựng quy trình trước/sau. | Phân tích bottleneck và đề xuất cải tiến. | Thời gian các bước chưa có dữ liệu thực tế. | Điều chỉnh thời gian và xác định bước cần con người kiểm tra. |
+| CP5–6 Problem Statement | Hỗ trợ diễn đạt và làm rõ vấn đề. | Giúp xác định Actor, Context và Pain point. | Đôi lúc mô tả vấn đề quá rộng. | Giới hạn vào việc rà soát định dạng, rubric và trích dẫn. |
+| CP6 Mức can thiệp / quyết định | So sánh No AI, Rule, Workflow và Agent. | Làm rõ ưu, nhược điểm từng mức. | Có xu hướng đề xuất AI quá mức cần thiết. | Chọn Workflow, giữ quyền xác minh và chấm điểm cho giảng viên. |
 
 ---
 
@@ -218,17 +218,34 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
+Tôi nhận ra sinh viên có nhiều vấn đề khác nhau trong học tập và nghiên cứu. Việc lắng nghe các vấn đề của các bạn giúp tôi tiếp cận thêm nhiều góc nhìn, hiểu rằng cùng một đối tượng người dùng nhưng có thể gặp những khó khăn rất khác nhau.
+
+
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+
+Nhóm không gặp tình trạng solution-first rõ rệt. Nhóm tập trung xác định Actor, pain point và quy trình hiện tại trước khi thảo luận giải pháp AI, từ đó tránh lựa chọn công nghệ khi chưa hiểu rõ vấn đề.
+
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
+Tôi không có sự thay đổi lớn về quan điểm sau phản biện vì chưa có lần nào nhận được ý kiến phản biện khiến tôi phải thay đổi lựa chọn. Tuy nhiên, quá trình thảo luận giúp tôi nhìn nhận vấn đề rõ ràng và cụ thể hơn.
+
+
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+
+Tôi không quá bất ngờ vì kết quả phân tích tương đối phù hợp với dự đoán ban đầu. Các thao tác kiểm tra định dạng, đối chiếu rubric và trích dẫn đều mang tính lặp lại, trong khi việc đọc sâu nội dung vẫn cần sự đánh giá của giảng viên.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
+Khó nhất là xác định đúng điểm nghẽn thực sự trong quy trình và phân biệt giữa vấn đề của người dùng với giải pháp mong muốn. Tôi cần làm rõ công đoạn nào gây mất thời gian, ảnh hưởng như thế nào và có thực sự cần AI hỗ trợ hay không.
+
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
+Nếu làm lại, tôi sẽ dành nhiều thời gian hơn để phỏng vấn hoặc khảo sát người dùng nhằm có số liệu thực tế thay vì dựa nhiều vào ước tính. Tôi cũng sẽ phản biện nhóm sâu hơn về tính khả thi của thời gian kỳ vọng, độ chính xác của AI và cách đo lường hiệu quả sau cải tiến.
+
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+
+Bài toán của nhóm xuất phát từ việc giảng viên mất nhiều thời gian rà soát định dạng, rubric và trích dẫn khi chấm bài. Trong quy trình hiện tại, các thao tác kiểm tra cơ học chiếm 8 phút/bài, là bottleneck có thể cải thiện. Nhóm đặt mục tiêu giảm tổng thời gian từ 21 xuống 16 phút/bài, tương đương khoảng 23%. Tuy nhiên, AI chỉ hỗ trợ rà soát sơ bộ, không tự chấm điểm hoặc thay thế đánh giá chuyên môn của giảng viên. Cuối cùng, giảng viên vẫn là người xác minh cảnh báo, đánh giá nội dung và quyết định điểm số, đồng thời có thể quay về kiểm tra thủ công nếu hệ thống gặp lỗi.
 
 ---
 
