@@ -97,12 +97,12 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 | # | Giả định | Loại (Value / Usability / Feasibility / Viability) | Quan trọng (1–5) | Đã có bằng chứng (1–5) | Kiểm chứng trước? |
 |---:|---|---|---:|---:|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
-| 6 | | | | | |
+| 1 | Sinh viên thường xuyên mắc lỗi định dạng hoặc bỏ sót tiêu chí trong rubric khi làm bài tập lớn, tiểu luận.| Value| 5|1 | Có |
+| 2 |  Những lỗi này gây hậu quả đáng kể như mất điểm, phải chỉnh sửa nhiều lần hoặc nộp muộn. | Value| 5 | 1 | Có |
+| 3 | Sinh viên mất nhiều thời gian tự đối chiếu bài làm với rubric nhưng vẫn dễ bỏ sót lỗi. | Value | 4 |1  | Có |
+| 4 | Các yêu cầu định dạng và rubric đủ rõ ràng để xác định bài làm có đáp ứng tiêu chí hay không một cách khách quan. | Feasibility | 5 | 1 | Có |
+| 5 | Các phương pháp hiện tại như checklist, template hoặc công cụ kiểm tra có sẵn chưa giải quyết đủ tốt vấn đề. | Viability | 4 | 1 | Có |
+| 6 | Sinh viên sẵn sàng dành thời gian kiểm tra và chỉnh sửa bài trước khi nộp nếu việc kiểm tra mang lại giá trị rõ ràng.| Value | 4 | 1 | Sau 1-4 |
 
 *Điền 4–6 giả định; xóa dòng thừa.*
 
