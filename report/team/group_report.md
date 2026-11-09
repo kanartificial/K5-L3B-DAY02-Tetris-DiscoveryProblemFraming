@@ -37,7 +37,7 @@
 | Cluster | Các candidate | Pattern chung |
 |---|---|---|
 | A. Tìm kiếm và khai thác tri thức | #2, #3, #8, #9, #10 | Sinh viên mất nhiều thời gian tìm kiếm, đọc hiểu, tổng hợp và khai thác thông tin từ tài liệu khoa học; gặp khó khăn khi tái hiện hoặc kiểm chứng kết quả nghiên cứu. |
-| B. Quản lý và hoàn thành nhiệm vụ học tập | #4, #6, #7, #11 | Sinh viên gặp khó khăn trong việc nắm bắt yêu cầu, quy định, xây dựng nền tảng kiến thức và tổ chức công việc để hoàn thành bài tập đúng yêu cầu. |
+| B. Quản lý và hoàn thành nhiệm vụ học tập | #4, #6, #7, #11, #12 | Sinh viên gặp khó khăn trong việc nắm bắt yêu cầu, quy định, xây dựng nền tảng kiến thức và tổ chức công việc để hoàn thành bài tập đúng yêu cầu. |
 | C. Phối hợp và theo dõi công việc nhóm | #1, #5 | Sinh viên khó nắm bắt tiến độ, tình trạng và khó khăn của từng thành viên, dẫn đến phối hợp thiếu hiệu quả và nguy cơ trễ deadline chung. |
 
 ### 2.3. Opportunity Solution Tree rút gọn
@@ -64,14 +64,14 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 | # | Candidate (Tóm tắt) | Actor rõ | Quy trình rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh được No AI/Rule/Workflow/Agent | Nhóm hiểu domain | Tổng |
 |---:|---|---:|---:|---:|---:|---:|---:|---:|---:|
-| 6 | Rà soát sơ bộ định dạng & tiêu chí bài tập lớn (Tran) | 4 | 5 | 4 | 4 | 5 | 5 | 5 | **32** |
-| 8 | Tìm kiếm, đọc hiểu và tổng hợp tài liệu (Thao) | 5 | 4 | 4 | 4 | 5 | 5 | 5 | **32** |
-| 7 | Giải đáp thắc mắc lặp lại về quy chế đồ án (Tran) | 4 | 5 | 4 | 4 | 4 | 4 | 5 | **30** |
+| 6 | Rà soát sơ bộ định dạng & tiêu chí bài tập lớn| 4 | 5 | 4 | 4 | 5 | 5 | 5 | **32** |
+| 3 | Tìm kiếm, đọc hiểu và tổng hợp tài liệu| 5 | 4 | 4 | 4 | 5 | 5 | 5 | **32** |
+| 7 | Giải đáp thắc mắc lặp lại về quy chế đồ án| 4 | 5 | 4 | 4 | 4 | 4 | 5 | **30** |
 
 
 **Candidate được chọn:**
 
-- **#6 — Rà soát sơ bộ định dạng và tiêu chí bài tập lớn (Tran).**
+- **#6 — Rà soát sơ bộ định dạng và tiêu chí bài tập lớn.**
 
 **Vì sao chọn:**
 
@@ -84,7 +84,7 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 **Vì sao loại các candidate còn lại:**
 
-- **#8 — Tìm kiếm, đọc hiểu và tổng hợp tài liệu:** Có tiềm năng ứng dụng AI cao nhưng phạm vi rộng, dễ trùng lặp với các công cụ AI hỗ trợ nghiên cứu hiện có. Cần giới hạn rõ hơn phạm vi tài liệu và đầu ra.
+- **#3 — Tìm kiếm, đọc hiểu và tổng hợp tài liệu:** Có tiềm năng ứng dụng AI cao nhưng phạm vi rộng, dễ trùng lặp với các công cụ AI hỗ trợ nghiên cứu hiện có. Cần giới hạn rõ hơn phạm vi tài liệu và đầu ra.
 - **#7 — Giải đáp thắc mắc về quy chế đồ án:** Có quy trình và Actor rõ ràng nhưng phạm vi nội dung tương đối hẹp, có thể giải quyết bằng hệ thống tra cứu tài liệu hoặc chatbot RAG đơn giản.
 
 **Xử lý bất đồng (nếu có):** Thảo luận, bất đồng về camdidate Tìm kiếm, đọc hiểu và tổng hợp tài liệu và Rà soát sơ bộ định dạng và tiêu chí bài tập lớn, sau quá trình nghiên cứu và đánh giá lại thì chốt candidate Rà soát sơ bộ định dạng và tiêu chí bài tập lớn
