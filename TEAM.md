@@ -37,19 +37,33 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 
 Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `HoVaTen-MSSV`.
 
-### HoVaTen-MSSV
+### KhongNgocAnh-2A202603974
 
 **Phần việc phụ trách:**
 
--
+- Trưởng nhóm, phối hợp tích hợp bài làm trên repo chung.
+- CP1–CP2: Scan problem, xây dựng 3 Problem Cards và quy trình nháp trong báo cáo cá nhân.
+- CP3: Tổng hợp bảng pitch và đóng góp 3 candidate về hoạt động nghiên cứu.
+- CP4: Xây dựng Assumption Map.
+- CP5: Phụ trách quy trình trước/sau, bảng before/after và Problem Statement v0.
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
--
+- **CP1–CP2:** Viết báo cáo cá nhân với 3 Problem Cards: reproduce paper, debug kết quả nghiên cứu và xây dựng kiến thức nền tảng; bổ sung Job Story, quy trình, ước lượng thời gian, bottleneck và success metric.
+- **CP3 – Mục 2.1:** Điền bảng pitch ban đầu của nhóm, trong đó đóng góp candidate #9–#11: reproduce paper, debug kết quả nghiên cứu và xây dựng nền tảng.
+- **CP4 – Mục 3.1:** Điền 6 giả định về lỗi định dạng, thiếu tiêu chí rubric, tác động, thời gian tự rà soát, tính rõ ràng của yêu cầu, hạn chế của giải pháp hiện tại và mức sẵn sàng kiểm tra bài; phân loại và xác định thứ tự kiểm chứng.
+- **CP5 – Mục 4.2, 4.3:** Xây dựng quy trình tương lai 5 bước, phân biệt vai trò Rule-based, AI và giảng viên; bổ sung input/output, thời gian dự kiến, boundary, fallback và bảng so sánh trước/sau. Các con số sau cải tiến là kỳ vọng, chưa phải kết quả đo thực tế.
+- **CP5 – Mục 5:** Viết Problem Statement v0 gồm actor, quy trình, bottleneck, impact, success metric và boundary; ghi nhận phản biện về việc tiết kiệm thời gian chưa đủ để khẳng định chất lượng feedback tăng.
+- **Điều phối repo:** Merge các pull request của thành viên và xử lý dấu xung đột merge trong báo cáo nhóm.
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
--
+- `report/individual/2A202603974_KhongNgocAnh.md`: Mục 2 (CP1), mục 3 (CP2); commit `cd975b0`, `273a3fb`, `ab4043b`.
+- `report/team/group_report.md`: Mục 2.1, candidate #9–#11 và bảng pitch ban đầu; commit `3f2d205`.
+- `report/team/group_report.md`: Mục 3.1, Assumption Map; commit `9ecaa32`.
+- `report/team/group_report.md`: Mục 4.2, 4.3, quy trình tương lai và bảng before/after; commit `e3d92e2`.
+- `report/team/group_report.md`: Mục 5, Problem Statement v0 và phản biện; commit `bfb26ef`.
+- Commit tích hợp: `8c8a884`, `03fa2a8`, `fcd7774`, `2e415ac`, `a6c43dd`, `2ccffec`, `43ac41d` (merge pull request); `ead08f4` (xóa dấu xung đột merge).
 
 ### LyHaTranTran-2A202603968
 
