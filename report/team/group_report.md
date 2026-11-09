@@ -147,19 +147,32 @@ Tổng hợp:
 
 Sơ đồ (ASCII, Mermaid hoặc link ảnh trong `report/assets/`):
 
-```text
+```
+HIỆN TẠI — 21 phút/bài (Tổng ~15.75 tiếng cho lớp 45 sinh viên)
+
+[1. Tải bài: 1'] → [2. Kiểm tra format: 3'] → [3. Soát đủ mục rubric: 3'] → [4. Soát trích dẫn: 2'] 
+                   └────────────────── BOTTLENECK CƠ HỌC: 8' ──────────────────┘
+→ [5. Đọc sâu nội dung & lập luận: 9'] → [6. Viết nhận xét & nhập điểm: 3']
 
 ```
 
 | Bước | Actor | Input | Output | Thời gian / tần suất | Ghi chú |
 |---:|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
+| 1 | Giảng viên | Bài làm của sinh viên được nộp dưới dạng file Word/PDF | File bài làm được tải về và sẵn sàng kiểm tra | 1 phút/bài | Thực hiện với từng bài nộp |
+| 2 | Giảng viên | File bài làm | Xác định lỗi định dạng như font chữ, căn lề, giãn dòng, đánh số trang | 3 phút/bài | Kiểm tra thủ công theo yêu cầu của đề bài |
+| 3 | Giảng viên | File bài làm và rubric/chỉ dẫn bài tập | Danh sách các mục đã đáp ứng hoặc còn thiếu | 3 phút/bài | Phải đối chiếu từng tiêu chí trong rubric |
+| 4 | Giảng viên | Nội dung bài làm và quy định trích dẫn | Phát hiện các lỗi hoặc điểm chưa phù hợp trong trích dẫn | 2 phút/bài | Kiểm tra cách trích dẫn và danh mục tài liệu tham khảo |
+| 5 | Giảng viên | Bài làm đã qua bước rà soát sơ bộ | Nhận xét về nội dung, lập luận và kết quả đánh giá; điểm số được ghi nhận | 12 phút/bài (9 phút đọc sâu + 3 phút nhận xét, nhập điểm) | Cần đánh giá chuyên môn, không thể chỉ dựa vào kiểm tra hình thức |
+| 6 | Giảng viên | Kết quả đánh giá và nhận xét | Nhận xét hoàn chỉnh và điểm số được nhập vào hệ thống | 3 phút/bài | Tổng hợp nhận xét và nhập điểm cho sinh viên |
+
 
 **Bottleneck chính:**
+
+- Giảng viên mất nhiều thời gian cho các thao tác rà soát thủ công, lặp đi lặp lại như kiểm tra định dạng, đối chiếu rubric và kiểm tra trích dẫn.
+- Ba thao tác này chiếm tổng cộng **8 phút/bài (38,1% tổng thời gian)**, tương đương **6 tiếng với 45 sinh viên**.
+- Việc phải kiểm tra từng tiêu chí bằng tay dễ dẫn đến bỏ sót lỗi, thiếu nhất quán giữa các bài và làm tăng khối lượng công việc của giảng viên.
+- Đây là công đoạn có tiềm năng ứng dụng AI và Rule-based để tự động rà soát sơ bộ, phát hiện lỗi và đưa ra cảnh báo. Giảng viên vẫn chịu trách nhiệm đọc sâu nội dung, đánh giá lập luận và quyết định điểm số cuối cùng.
+
 
 ### 4.2. Quy trình tương lai
 
