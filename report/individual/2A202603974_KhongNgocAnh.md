@@ -20,14 +20,14 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 
 | # | Lăng kính | Job Story: Khi… tôi muốn… để… | Ai chịu ảnh hưởng? | Dấu hiệu thật (thời gian, tần suất, số người, bằng chứng) |
 |---:|---|---|---|---|
-| 1 | Cần đọc, tổng hợp nhiều thông tin | 	Khi cần đánh giá các tiến triển mới trong lĩnh vực mình nghiên cứu, tôi muốn xác định những kết quả quan trọng và sự khác biệt so với các nghiên cứu trước, để quyết định chủ đề nào đáng tìm hiểu sâu hơn. | RA, PhD student, PI |  |
-| 2 | Tốn thời gian | Khi mới tham gia một dự án nghiên cứu chưa có kiến thức nền tảng, tôi muốn hiểu những khái niệm và công trình tiền đề cần thiết, để có thể đọc hiểu các paper chính và bắt đầu đóng góp vào dự án. | research student mới | |
-| 3 | Lặp lại | Khi cần reproduce kết quả của một paper, tôi muốn tái hiện được điều kiện thí nghiệm và kết quả được báo cáo, để xác minh kết quả và có baseline đáng tin cậy cho nghiên cứu tiếp theo. | RA, research student | |
-| 4 | Lặp lại | Khi thực hiện nhiều lượt thí nghiệm với các cấu hình khác nhau, tôi muốn xác định chính xác kết quả tương ứng với mỗi cấu hình và những lần chạy thất bại, để có thể so sánh các giả thuyết một cách đáng tin cậy. | RA | |
-| 5 | Cần đọc, tổng hợp nhiều thông tin | Khi bắt đầu nghiên cứu một câu hỏi mới, tôi muốn xác định những công trình liên quan nhất và những hạn chế của chúng, để biết câu hỏi của mình đã được giải quyết đến đâu và xác định đóng góp nghiên cứu.| RA, PhD student | |
-| 6 | Pain từ người khác | Khi tiếp nhận một dự án từ thành viên cũ của lab, tôi muốn hiểu những quyết định nghiên cứu, thí nghiệm đã thử và hạn chế đã phát hiện, để không lặp lại những công việc không cần thiết.| RA, research student mới | |
-| 7 | Tốn thời gian | Khi mới được giao tiếp tục một dự án có sẵn của lab, tôi muốn hiểu cấu trúc code, dữ liệu và cách thực hiện thí nghiệm, để có thể bắt đầu làm việc mà không mất quá nhiều thời gian làm quen. | RA, research student mới | |
-| 8 | Tốn thời gian | Khi một thí nghiệm không đạt kết quả mong đợi, tôi muốn xác định nguyên nhân đến từ implementation, dữ liệu hay giả thuyết nghiên cứu, để quyết định có nên tiếp tục hướng thử nghiệm đó. | RA, research student | |
+| 1 | Cần đọc, tổng hợp nhiều thông tin | 	Khi cần đánh giá các tiến triển mới trong lĩnh vực mình nghiên cứu, tôi muốn xác định những kết quả quan trọng và sự khác biệt so với các nghiên cứu trước, để quyết định chủ đề nào đáng tìm hiểu sâu hơn. | RA, PhD student, PI | Hằng tuần hoặc hằng tháng. 3-8h/lần |
+| 2 | Tốn thời gian | Khi mới tham gia một dự án nghiên cứu chưa có kiến thức nền tảng, tôi muốn hiểu những khái niệm và công trình tiền đề cần thiết, để có thể đọc hiểu các paper chính và bắt đầu đóng góp vào dự án. | research student mới | 21–56 giờ học và thực hành. |
+| 3 | Lặp lại | Khi cần reproduce kết quả của một paper, tôi muốn tái hiện được điều kiện thí nghiệm và kết quả được báo cáo, để xác minh kết quả và có baseline đáng tin cậy cho nghiên cứu tiếp theo. | RA, research student | 10-30 giờ |
+| 4 | Lặp lại | Khi thực hiện nhiều lượt thí nghiệm với các cấu hình khác nhau, tôi muốn xác định chính xác kết quả tương ứng với mỗi cấu hình và những lần chạy thất bại, để có thể so sánh các giả thuyết một cách đáng tin cậy. | RA | Có thể nhiều lần mỗi ngày hoặc mỗi tuần trong giai đoạn thực nghiệm. |
+| 5 | Cần đọc, tổng hợp nhiều thông tin | Khi bắt đầu nghiên cứu một câu hỏi mới, tôi muốn xác định những công trình liên quan nhất và những hạn chế của chúng, để biết câu hỏi của mình đã được giải quyết đến đâu và xác định đóng góp nghiên cứu.| RA, PhD student | 2-3 ngày |
+| 6 | Pain từ người khác | Khi tiếp nhận một dự án từ thành viên cũ của lab, tôi muốn hiểu những quyết định nghiên cứu, thí nghiệm đã thử và hạn chế đã phát hiện, để không lặp lại những công việc không cần thiết.| RA, research student mới | 10 - 30 giờ |
+| 7 | Tốn thời gian | Khi mới được giao tiếp tục một dự án có sẵn của lab, tôi muốn hiểu cấu trúc code, dữ liệu và cách thực hiện thí nghiệm, để có thể bắt đầu làm việc mà không mất quá nhiều thời gian làm quen. | RA, research student mới | 10 - 30 giờ|
+| 8 | Tốn thời gian | Khi một thí nghiệm không đạt kết quả mong đợi, tôi muốn xác định nguyên nhân đến từ implementation, dữ liệu hay giả thuyết nghiên cứu, để quyết định có nên tiếp tục hướng thử nghiệm đó. | RA, research student | 4–18 giờ mỗi lần|
 
 **Nếu có dùng AI để gợi ý thêm:** 
 - AI gợi ý thêm problem 6 7 8 
@@ -51,13 +51,13 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 | Job Story | Khi cần reproduce kết quả của một paper, tôi muốn tái hiện được điều kiện thí nghiệm và kết quả được báo cáo, để xác minh kết quả và có baseline đáng tin cậy cho nghiên cứu tiếp theo. |
 | Actor | RA, research student|
 | Thời điểm / bối cảnh | Mỗi khi bắt đầu nghiên cứu |
-| Quy trình hiện tại (3–7 bước) ||
+| Quy trình hiện tại (3–7 bước) | Đọc paper, Tìm implementation, Thiết lập môi trường, Chạy thí nghiệm, So sánh kết quả, Debug, Ghi nhận kết quả|
 | Bottleneck (bước nào, mất bao nhiêu phút) | Giả định, thiết lập môi trường, tìm |
 | Impact (nếu không giải thì sao) | Chậm tiến độ nghiên cứu; không có baseline đáng tin cậy; các thí nghiệm tiếp theo có thể dựa trên implementation không chính xác. |
 | Success metric (baseline → target) | thời gian để reproduce thành công một benchmark. Target đề xuất: giảm 25–30% thời gian thực hiện.  |
 | Phương án không dùng AI | Checklist tái hiện thí nghiệm, môi trường và dependency được cố định, tài liệu hướng dẫn reproduce, quy trình ghi nhận configuration và kết quả |
 | Giả thuyết về AI (nếu có) | AI có thể giúp xác định những thông tin về experimental setup phân tán giữa paper, supplementary material và code, hoặc nhận diện những điểm khác biệt giữa các cấu hình thí nghiệm.  |
-| Cảm nhận nhanh | Workflow t |
+| Cảm nhận nhanh | Workflow |
 
 Quy trình nháp hiện tại:
 
@@ -92,7 +92,7 @@ flowchart TD
 | Job Story | Khi một thí nghiệm không đạt kết quả mong đợi, tôi muốn xác định nguyên nhân đến từ implementation, dữ liệu hay giả thuyết nghiên cứu, để quyết định có nên tiếp tục hướng thử nghiệm đó.|
 | Actor | RA, research student |
 | Thời điểm / bối cảnh | Khi mô hình không hội tụ, metric thấp bất thường, kết quả không ổn định hoặc một thay đổi trong phương pháp không mang lại cải thiện mong đợi.|
-| Quy trình hiện tại (3–7 bước) | |
+| Quy trình hiện tại (3–7 bước) | Phát hiện bug, kiểm tra config, đọc code và logs, Đưa giả thuyết, Kiểm chứng, Đánh giá, Ghi nhận|
 | Bottleneck (bước nào, mất bao nhiêu phút) | Giả định: xác định nguyên nhân trong số nhiều thành phần có thể gây lỗi. Cần đo số lần chạy thử, thời gian phân tích và thời gian xác định nguyên nhân. |
 | Impact (nếu không giải thì sao) | Lãng phí tài nguyên tính toán, kéo dài thời gian thí nghiệm, đưa ra kết luận sai về phương pháp hoặc loại bỏ một giả thuyết có tiềm năng. |
 | Success metric (baseline → target) | thời gian trung vị để xác định nguyên nhân gốc có bằng chứng. Target đề xuất: giảm 25%. |
@@ -134,12 +134,12 @@ flowchart TD
 | Job Story | Khi mới tham gia một dự án nghiên cứu chưa có kiến thức nền tảng, tôi muốn hiểu những khái niệm và công trình tiền đề cần thiết, để có thể đọc hiểu các paper chính và bắt đầu đóng góp vào dự án.  |
 | Actor | New research student |
 | Thời điểm / bối cảnh | Giai đoạn onboarding hoặc khi researcher chuyển sang một hướng nghiên cứu mới. |
-| Quy trình hiện tại (3–7 bước) | |
+| Quy trình hiện tại (3–7 bước) | Nhận nhiệm vụ, đánh giá kiến thức, Tìm tài liệu, học lí thuyết, Đọc paper, Thảo luận với mentor, sẵn sàng nghiên cứu|
 | Bottleneck (bước nào, mất bao nhiêu phút) | không biết nên học kiến thức nào trước, mức độ sâu cần đạt, và gặp nhiều khái niệm phụ thuộc vào nhau khi đọc paper. |
 | Impact (nếu không giải thì sao) | Thời gian onboarding kéo dài; khó hiểu yêu cầu nghiên cứu; phụ thuộc nhiều vào mentor; nguy cơ hiểu sai phương pháp hoặc giả định trong paper. |
 | Success metric (baseline → target) | thời gian để đạt một ngưỡng năng lực xác định trước. Target đề xuất: giảm 20–25% thời gian với cùng chuẩn đánh giá. |
 | Phương án không dùng AI | Reading list từ mentor, syllabus nội bộ, prerequisite map, study group, mentoring và các bài kiểm tra kiến thức đầu vào.|
-| Giả thuyết về AI (nếu có) | |
+| Giả thuyết về AI (nếu có) | AI có thể hỗ trợ xác định khoảng trống kiến thức và những khái niệm tiền đề cần hiểu đối với một paper hoặc task cụ thể.|
 | Cảm nhận nhanh | Workflow  |
 
 Quy trình nháp hiện tại:
@@ -169,9 +169,9 @@ flowchart TD
 
 ### Card muốn pitch nhất
 
-- Card số: 
-- Vì sao:
-- Câu hỏi muốn nhóm phản biện:
+- Card số: 3
+- Vì sao: Đây là vấn đề có impact lớn với sinh viên
+- Câu hỏi muốn nhóm phản biện: Liệu có đánh giá được đúng đắn thời gian để đạt ngưỡng năng lực không
 
 ### AI đã phản biện card thế nào
 
