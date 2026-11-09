@@ -18,8 +18,8 @@
 
 | # | Người đưa ra | Candidate (Job Story ngắn) | Actor | Bottleneck | Câu hỏi phản biện nhận được (ai hỏi) |
 |---:|---|---|---|---|---|
-| 1 | KimY | Khi làm bài tập nhóm nhưng có thành viên thường xuyên chậm tiến độ, tôi muốn biết rõ tình trạng công việc và những khó khăn của từng người để tránh ảnh hưởng đến deadline chung |  | | |
-| 2 | KimY| Khi có một vấn đề, nghiên cứu mà tôi cảm thấy mới và quan tâm, tôi cần tìm hiểu, đọc các bài báo liên quan để rút ra insight cho bản thân | | | |
+| 1 | KimY | Khi làm bài tập nhóm nhưng có thành viên thường xuyên chậm tiến độ, tôi muốn biết rõ tình trạng công việc và những khó khăn của từng người để tránh ảnh hưởng đến deadline chung |  Nhóm trưởng, thành viên nhóm| Nhóm trưởng phải liên tục hỏi tiến độ từng thành viên, chờ phản hồi và tổng hợp thông tin thủ công; khó biết nguyên nhân chậm tiến độ.| |
+| 2 | KimY| Khi có một vấn đề, nghiên cứu mà tôi cảm thấy mới và quan tâm, tôi cần tìm hiểu, đọc các bài báo liên quan để rút ra insight cho bản thân | Sinh viên| Mất nhiều thời gian tìm kiếm, chọn lọc, đọc hiểu và tổng hợp tài liệu. Lần gần nhất mất khoảng 3 tiếng.| |
 | 3 | Thao | Sinh viên mất nhiều thời gian tìm kiếm, đọc và tổng hợp thông tin từ nhiều tài liệu khác nhau khi làm bài tập, tiểu luận và nghiên cứu. | | | |
 | 4 | Thao | Sinh viên gặp khó khăn khi quản lý nhiều deadline và sắp xếp thứ tự ưu tiên các nhiệm vụ từ nhiều môn học. | | | |
 | 5 | Thao | Sinh viên gặp khó khăn trong việc phối hợp và theo dõi tiến độ khi làm bài tập nhóm do các thành viên cập nhật thông tin không đồng đều.|  | | |
@@ -29,7 +29,7 @@
 | 9 | Anh | 3. Reproduce paper | | | |
 | 10 | Anh | 8. Debug kết quả nghiên cứu | | | |
 | 11 | Anh | 2. Xây dựng nền tảng | | | |
-| 12 | KimY| Khi bắt đầu một tuần học mới, tôi muốn nắm được tất cả bài tập, deadline và lịch báo cáo của các môn để không bỏ sót nhiệm vụ quan trọng| | | |
+| 12 | KimY| Khi bắt đầu một tuần học mới, tôi muốn nắm được tất cả bài tập, deadline và lịch báo cáo của các môn để không bỏ sót nhiệm vụ quan trọng| Sinh viên| Phải kiểm tra thông tin từ nhiều nguồn như nhóm chat, thông báo giảng viên và hệ thống học tập rồi tổng hợp thủ công.| |
 
 ### 2.2. Cluster
 
@@ -363,32 +363,39 @@ Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng
 ---
 
 ## 7. Problem Statement v1 + tiêu chí đánh giá (CP6)
-
 | Trường | Nội dung |
 |---|---|
-| **Actor** | |
-| **Quy trình** | |
-| **Bottleneck** | |
-| **Impact** | |
-| **Success Metric** (baseline → target, cách đo) | |
-| **Boundary** | |
-| **AI intervention point** | |
-| **Mức chọn** | No AI / Rule / Workflow / Agent |
-| **Rủi ro & người kiểm tra** | |
+| **Actor** | Giảng viên và trợ giảng (TA) phụ trách chấm bài tập lớn, tiểu luận từ 15 trang trở lên. |
+| **Quy trình** | 1. Nhận bài làm Word/PDF. 2. Kiểm tra định dạng (font, lề, số trang, danh mục bảng/hình). 3. Đối chiếu cấu trúc bài với rubric. 4. Kiểm tra trích dẫn và tài liệu tham khảo. 5. Đọc và đánh giá nội dung chuyên môn. 6. Viết nhận xét và quyết định điểm số. |
+| **Bottleneck** | Bước 2–4: Giảng viên phải kiểm tra thủ công các yêu cầu về định dạng, cấu trúc và trích dẫn. Công việc này mất khoảng 8 phút/bài, chiếm 38,1% tổng thời gian chấm 21 phút/bài. |
+| **Impact** | Việc dành 8 phút/bài để rà soát các yêu cầu cơ học làm tăng tổng khối lượng chấm bài. Với lớp 45 bài, thời gian rà soát ước tính khoảng 6 giờ. Điều này có thể ảnh hưởng đến tiến độ trả bài và thời gian dành cho đánh giá chuyên môn khi giảng viên có quỹ thời gian giới hạn. |
+| **Success Metric** (baseline → target, cách đo) | 1. Thời gian rà soát: 8 phút/bài → dưới 2 phút/bài (giảm ít nhất 75%). 2. Tổng thời gian chấm: 21 phút/bài → dưới 15 phút/bài. 3. Precision và Recall phát hiện lỗi quy cách đạt ít nhất 90%. 4. Đo bằng cách bấm giờ và đối chiếu kết quả với bộ lỗi chuẩn do giảng viên/TA xác nhận trên tối thiểu 20 bài thử nghiệm. |
+| **Boundary** | AI không tự chấm điểm, không quyết định mức trừ điểm, không tự sửa nội dung bài làm và không gửi kết quả cho sinh viên. AI chỉ đưa ra checklist Đạt/Chưa đạt/Cần kiểm tra kèm bằng chứng. Giảng viên hoặc TA xác nhận các cảnh báo và quyết định kết quả cuối cùng. |
+| **AI intervention point** | Sau khi nhận file bài làm và rubric, trước bước đọc sâu nội dung. AI hỗ trợ đối chiếu cấu trúc, kiểm tra các tiêu chí hình thức và rà soát trích dẫn; đưa ra danh sách lỗi nghi ngờ kèm số trang hoặc vị trí liên quan để giảng viên kiểm tra. |
+| **Mức chọn** | Workflow (kết hợp Rule và AI). |
+| **Rủi ro & người kiểm tra** | Rủi ro: AI nhận diện sai cấu trúc tài liệu, bỏ sót lỗi, cảnh báo sai, hiểu sai rubric hoặc chỉ ra vị trí không chính xác. Người kiểm tra: Giảng viên/TA rà soát các cảnh báo trước khi sử dụng; trường hợp không đủ bằng chứng phải đánh dấu Cần kiểm tra, không tự kết luận. |
 
 **Thay đổi so với v0 và lý do:**
 
 | Trường | v0 | v1 | Vì sao đổi |
 |---|---|---|---|
-| | | | |
+| Actor | Giảng viên, TA và sinh viên. | Tập trung vào giảng viên và TA phụ trách chấm bài. | Xác định rõ người trực tiếp thực hiện quy trình và chịu ảnh hưởng của bottleneck. |
+| Bottleneck | Rà soát thủ công mất 8 phút/bài. | Xác định cụ thể bước 2–4, mất 8 phút/bài, chiếm 38,1% tổng thời gian. | Làm rõ vị trí gây tốn thời gian để xác định phạm vi can thiệp. |
+| Impact | Chấm bài lâu dẫn đến quá tải, nhận xét sơ sài hoặc trễ hạn trả bài. | Việc rà soát cơ học làm tăng khối lượng công việc và có thể ảnh hưởng đến tiến độ trả bài hoặc thời gian đánh giá chuyên môn khi quỹ thời gian giới hạn. | Tránh khẳng định quan hệ nhân quả chưa được chứng minh. Tiết kiệm thời gian không đồng nghĩa chắc chắn với nâng cao chất lượng nhận xét. |
+| Success Metric | Chủ yếu đo thời gian giảm từ 8 xuống dưới 1,5–2 phút/bài. | Đo thời gian kết hợp Precision, Recall ≥90% và đối chiếu với bộ lỗi chuẩn. | Đảm bảo hệ thống không chỉ xử lý nhanh mà còn phát hiện lỗi đủ chính xác. |
+| Boundary | AI không tự chấm điểm và không tự sửa bài. | Bổ sung không tự quyết định mức trừ điểm, không gửi kết quả; mọi kết luận cần bằng chứng và có con người kiểm tra. | Đảm bảo giảng viên giữ quyền quyết định và hạn chế rủi ro do AI đưa ra kết luận sai. |
+| AI intervention point | Chưa xác định rõ. | Can thiệp tại bước kiểm tra định dạng, cấu trúc và trích dẫn trước khi đánh giá nội dung chuyên môn. | Giới hạn phạm vi AI vào công đoạn có bottleneck rõ ràng. |
+| Mức chọn | Chưa thống nhất. | Workflow kết hợp Rule và AI. | Các lỗi định dạng có thể kiểm tra bằng quy tắc; AI hỗ trợ các tiêu chí cần hiểu ngữ cảnh. Chưa có bằng chứng cần Agent tự chủ. |
 
 **Tiêu chí đánh giá đầu ra của AI (3–5 tiêu chí):**
 
 | # | Tiêu chí | Đạt khi | Không đạt khi |
-|---:|---|---|---|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
+|---|---|---|---|
+| 1 | Độ chính xác phát hiện lỗi (Precision) | Precision ≥90% so với bộ lỗi chuẩn do giảng viên/TA xác nhận. | Precision <90%, xuất hiện quá nhiều cảnh báo sai. |
+| 2 | Khả năng phát hiện đầy đủ lỗi (Recall) | Recall ≥90% so với tổng số lỗi trong bộ dữ liệu kiểm thử. | Recall <90%, bỏ sót nhiều lỗi thực tế. |
+| 3 | Tính chính xác của bằng chứng | Ít nhất 95% cảnh báo đúng có vị trí trang/đoạn và tiêu chí rubric tương ứng chính xác để người kiểm tra đối chiếu được. | Dẫn sai vị trí, sai tiêu chí hoặc không thể xác minh cảnh báo từ tài liệu gốc. |
+| 4 | Thời gian xử lý | Thời gian rà soát bằng hệ thống, bao gồm thời gian giảng viên xác nhận cảnh báo, trung bình dưới 2 phút/bài. | Thời gian trung bình từ 2 phút/bài trở lên hoặc không giảm đáng kể so với baseline. |
+| 5 | Tuân thủ giới hạn và quyền kiểm soát | 100% kết quả chỉ dừng ở checklist và cảnh báo; không tự sửa bài, chấm điểm hoặc gửi phản hồi khi chưa được duyệt. | Tự ý chỉnh sửa tài liệu, quyết định điểm số hoặc đưa ra kết luận chắc chắn khi thiếu bằng chứng. |
 
 ---
 
