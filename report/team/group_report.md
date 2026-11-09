@@ -217,7 +217,6 @@ HIỆN TẠI — 21 phút/bài (Tổng ~15.75 tiếng cho lớp 45 sinh viên)
 
 Ghi rõ bước nào **Rule**, bước nào **AI**, bước nào **con người**, **boundary** ở đâu, **phương án quay về** khi AI sai.
 
-<<<<<<< HEAD
 ```text
 TƯƠNG LAI — khoảng 14.5 phút/bài (Tổng ~10.9 tiếng cho lớp 45 sinh viên, tiết kiệm gần 5 tiếng)
 
@@ -237,7 +236,6 @@ PHƯƠNG ÁN QUAY VỀ (FALLBACK):
 - Khi file bị mã hóa, lỗi font không parse được, hoặc AI đưa ra độ tin cậy thấp (<80% confidence): Hệ thống tự động gắn nhãn [Cần kiểm tra thủ công].
 - Giảng viên/TA bỏ qua bước checklist, mở file gốc và đối chiếu rubric thủ công bằng mắt theo quy trình cũ.
 ```
-=======
 
 
 Tổng thời gian dự kiến: 16 phút/bài, tương đương 12 giờ cho lớp 45 sinh viên. Quy trình gồm 5 bước, trong đó 4 bước có sự tham gia của giảng viên và 1 bước kiểm tra tự động.
@@ -257,25 +255,21 @@ Tổng thời gian dự kiến: 16 phút/bài, tương đương 12 giờ cho l�
 - Boundary: AI không tự chấm điểm, không tự sửa bài làm và không thay đổi số liệu đánh giá. Giảng viên quyết định kết quả cuối cùng.
 - Fallback: Khi kiểm tra tự động thất bại hoặc không đáng tin cậy, giảng viên quay về quy trình rà soát thủ công theo rubric gốc.
 
->>>>>>> bfb26efbe59a8ae535ccc2fed3d8f830c0c228e3
 
 ### 4.3. Before / after
 
 | Chỉ số | Trước | Sau (kỳ vọng) | Ghi chú |
 |---|---:|---:|---|
-<<<<<<< HEAD
 | **Số bước** | 6 bước | 7 bước | Tách quy trình thành các bước xử lý tự động nhỏ hơn, minh bạch hơn |
 | **Tổng thời gian** | 21 phút/bài (~15.75 tiếng/lớp 45 SV) | ~14.5 phút/bài (~10.9 tiếng/lớp 45 SV) | Giảm ~31% tổng thời gian chấm; riêng khâu kiểm tra quy cách giảm 75% (từ 8' xuống 2') |
 | **Số bước thủ công** | 6 / 6 bước (100% người làm) | 3 / 7 bước (43% người làm) | Khâu đọc hiểu chuyên môn và quyết định điểm số vẫn thuộc 100% về con người |
 | **Bottleneck chính** | Khâu rà soát cơ học định dạng, mục lục, trích dẫn (8 phút/bài) | Khâu đọc sâu nội dung & đánh giá lập luận (9 phút/bài) | Nút thắt chuyển dịch lành mạnh sang khâu đòi hỏi tư duy chuyên môn sư phạm |
 | **Rủi ro mới phát sinh** | Không có (chỉ có mệt mỏi và dễ sót lỗi thủ công) | AI nhận diện nhầm tiêu đề hoặc báo sai lỗi trích dẫn (False Positive/Negative); người chấm quá ỷ lại vào checklist | Xử lý bằng Boundary: AI bắt buộc dẫn chứng số trang; người chấm chỉ coi checklist là công cụ hỗ trợ rà soát sơ bộ |
-=======
 | Số bước | 6 | 5 | Giảm 1 bước |
 | Tổng thời gian/bài | 21 phút | 16 phút | Giảm 23% |
 | Số bước thủ công | 6 | 4 | |
 | Bottleneck chính | Các bước kiểm tra định dạng, trích dẫn | Bước đọc sâu của giảng viên | |
 | Rủi ro mới phát sinh | | AI có thể cảnh báo sai hoặc lỗi | |
->>>>>>> bfb26efbe59a8ae535ccc2fed3d8f830c0c228e3
 
 ---
 
@@ -283,7 +277,6 @@ Tổng thời gian dự kiến: 16 phút/bài, tương đương 12 giờ cho l�
 lỗi
 | Trường | Nội dung |
 |---|---|
-<<<<<<< HEAD
 | **Actor** | Giảng viên và Trợ giảng (TA) phụ trách chấm bài tập lớn/tiểu luận môn học (từ 15 trang trở lên), cùng sinh viên thực hiện bài nộp |
 | **Quy trình** | Nhận file bài làm (Word/PDF) → Kiểm tra định dạng cơ học (font, lề, số trang, danh mục bảng/hình) → Đối chiếu mục lục với các tiêu chí rubric → Rà soát chuẩn trích dẫn tài liệu tham khảo → Đọc sâu nội dung và lập luận → Viết nhận xét và nhập điểm lên hệ thống |
 | **Bottleneck** | Khâu rà soát thủ công định dạng, đối chiếu danh mục rubric và kiểm tra chuẩn trích dẫn (bước 2, 3, 4) mất tới **8 phút/bài (chiếm 38.1% tổng thời gian)** |
@@ -307,7 +300,6 @@ Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng
 
 Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng ý không:
 - Impact chưa tường mình và gây hiểu nhầm. Ví dụ, nếu giảng viên không có thời hạn chấm bài quá gấp, tiết kiệm 5 phút/bài không nhất thiết làm tăng chất lượng feedback. Đề xuất sửa impact thành: "Việc dành 8 phút/bài để rà soát các yêu cầu cơ học làm tăng tổng khối lượng chấm bài. Điều này có thể ảnh hưởng đến tiến độ trả bài và thời gian dành cho đánh giá chuyên môn khi giảng viên có quỹ thời gian giới hạn.". Nhóm đồng ý với feedbackfeedback
->>>>>>> bfb26efbe59a8ae535ccc2fed3d8f830c0c228e3
 
 ---
 
