@@ -135,9 +135,11 @@ Tổng hợp:
 
 | Công cụ / case / pattern | Link | Giải bước nào trong quy trình? | Điểm mạnh | Khoảng trống / rủi ro | Bài học cho nhóm |
 |---|---|---|---|---|---|
-| | | | | | |
-| | | | | | |
-| | | | | | |
+| Microsoft Word Editor | [Microsoft Editor](https://support.microsoft.com/en-us/word/check-grammar-spelling-and-more-in-word-for-the-web) | Rà soát chính tả, ngữ pháp, cách diễn đạt | Tích hợp trong Word, hỗ trợ sửa lỗi viết | Không phải công cụ chuyên kiểm tra toàn bộ rubric riêng của từng môn | Phân biệt lỗi ngôn ngữ với lỗi tuân thủ tiêu chí |
+| Grammarly AI Grader | [Grammarly AI Grader](https://support.grammarly.com/hc/en-us/articles/38552360525837-AI-Grader-user-guide) | Đối chiếu bài viết với rubric, đưa phản hồi trước khi nộp | Cho phép cung cấp rubric, nhận gợi ý theo tài liệu và đoạn văn | Điểm dự đoán không phải điểm chính thức; một số tính năng phụ thuộc gói dịch vụ | Cần nghiên cứu kỹ mức độ khác biệt so với công cụ đã có |
+| Turnitin Feedback Studio | [Turnitin Rubric](https://guides.turnitin.com/hc/en-us/articles/23859968188429-Reviewing-your-grade-and-rubric) | Xem tiêu chí rubric và phản hồi đánh giá | Rubric gắn với tiêu chí giảng viên sử dụng | Chủ yếu phục vụ quy trình đánh giá và phản hồi, không đồng nghĩa với kiểm tra trước nộp tự động | Nên gắn kết quả kiểm tra với từng tiêu chí cụ thể |
+| Grammarly Plagiarism Checker | [Plagiarism Checker](https://support.grammarly.com/hc/en-us/articles/115000091452-Plagiarism-Checker-user-guide) | Kiểm tra tương đồng nội dung và rủi ro trích dẫn | Hỗ trợ rà soát nguồn và thông tin trích dẫn | Không trực tiếp xác minh toàn bộ yêu cầu cấu trúc, định dạng và nội dung rubric | Không đánh đồng kiểm tra đạo văn với kiểm tra rubric |
+
 
 ---
 
