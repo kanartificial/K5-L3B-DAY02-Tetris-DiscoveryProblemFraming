@@ -307,39 +307,59 @@ Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng
 
 ### 6.1. Ma trận độ mơ hồ × độ phức tạp
 
-Bài của nhóm nằm ở ô:
+**Bài của nhóm nằm ở ô: Độ mơ hồ thấp – Độ phức tạp trung bình.**
 
-Vì sao:
+**Vì sao:**
+
+- Độ mơ hồ thấp đối với các tiêu chí có quy định rõ ràng như font chữ, căn lề, giãn dòng, đánh số trang và cấu trúc trích dẫn. Tuy nhiên, một số tiêu chí rubric liên quan đến nội dung và mức độ đáp ứng yêu cầu có thể cần diễn giải ngữ nghĩa.
+- Độ phức tạp trung bình vì hệ thống phải xử lý nhiều loại tài liệu Word/PDF, trích xuất nội dung, đối chiếu với rubric và kết hợp nhiều phương pháp kiểm tra.
+- Các tiêu chí định dạng có thể xử lý bằng Rule-based, trong khi việc nhận diện cấu trúc nội dung và các dấu hiệu bất thường trong trích dẫn cần AI hỗ trợ.
+- Kết quả cuối cùng vẫn cần giảng viên xác minh và đánh giá chuyên môn.
 
 ### 6.2. So sánh 4 mức
 
 | Mức | Phương án cho bài của nhóm | Đủ khi nào | Rủi ro | Chọn? |
 |---|---|---|---|---|
-| **No AI** (sửa quy trình) | | | | |
-| **Rule** | | | | |
-| **Workflow** | | | | |
-| **Agent** | | | | |
+| **No AI** (sửa quy trình) | Chuẩn hóa rubric và checklist để giảng viên kiểm tra bài làm theo một quy trình thống nhất. | Khi số lượng bài ít, tiêu chí đơn giản và giảng viên có đủ thời gian kiểm tra thủ công. | Vẫn tốn thời gian, dễ bỏ sót lỗi và phụ thuộc vào người kiểm tra. | Không |
+| **Rule** | Sử dụng các quy tắc cố định để kiểm tra font chữ, căn lề, giãn dòng, cấu trúc tài liệu và một số quy định trích dẫn. | Khi các tiêu chí kiểm tra có cấu trúc rõ ràng và có thể biểu diễn thành điều kiện cụ thể. | Khó hiểu ngữ cảnh, không đánh giá được cấu trúc nội dung hoặc các tiêu chí rubric mang tính ngữ nghĩa. | Không |
+| **Workflow** | Kết hợp Rule-based và AI trong quy trình tự động: trích xuất tài liệu → kiểm tra định dạng bằng Rule → AI rà soát cấu trúc nội dung và trích dẫn → tạo báo cáo cảnh báo → giảng viên xác minh. | Khi quy trình có các bước cố định, đầu vào và đầu ra xác định, cần kết hợp kiểm tra theo quy tắc và xử lý ngôn ngữ tự nhiên. | AI có thể cảnh báo sai, bỏ sót lỗi hoặc hiểu sai rubric; cần cơ chế xác minh và fallback thủ công. | **Có** |
+| **Agent** | AI tự phân tích tài liệu, lựa chọn cách kiểm tra, điều chỉnh chiến lược và tự thực hiện nhiều hành động để hoàn thành việc rà soát. | Khi quy trình phức tạp, thay đổi theo từng trường hợp và cần AI tự lập kế hoạch, sử dụng công cụ hoặc ra quyết định qua nhiều bước. | Khó kiểm soát, khó dự đoán kết quả, tăng chi phí và nguy cơ AI tự đưa ra kết luận không phù hợp. | Không |
 
-**Mức chọn:**
+**Mức chọn: Workflow**
 
 **Vì sao không chọn mức đơn giản hơn:**
+
+- **Không chọn No AI:** Chỉ chuẩn hóa checklist chưa giải quyết được khối lượng thao tác rà soát lặp lại. Giảng viên vẫn phải tự kiểm tra từng bài.
+- **Không chọn Rule:** Rule-based phù hợp với tiêu chí định dạng có điều kiện rõ ràng nhưng chưa đủ khả năng phân tích cấu trúc nội dung, nhận diện sự thiếu hụt về mặt ngữ nghĩa hoặc kiểm tra các trường hợp trích dẫn phức tạp.
+- **Workflow phù hợp nhất:** Kết hợp ưu điểm của Rule-based trong kiểm tra tiêu chí xác định và AI trong xử lý nội dung ngôn ngữ tự nhiên. Quy trình có đầu vào, đầu ra và các bước kiểm soát rõ ràng, đồng thời giữ quyền quyết định cuối cùng cho giảng viên.
 
 ### 6.3. AI Canvas rút gọn
 
 | Thành phần | Nội dung |
 |---|---|
-| **Prediction** — AI dự đoán / tạo ra gì? | |
-| **Judgment** — con người cân nhắc, quyết định gì? | |
-| **Action** — hành động cuối cùng là gì, ai làm? | |
-| **Outcome** — đo kết quả bằng gì? | |
-| **Input** — AI cần dữ liệu đầu vào gì mỗi lần chạy? Có sẵn không? | |
-| **Feedback** — lấy phản hồi ở đâu để cải thiện? | |
+| **Prediction** — AI dự đoán / tạo ra gì? | Phân tích bài làm và rubric để tạo báo cáo rà soát sơ bộ: phát hiện các mục có khả năng bị thiếu, nhận diện cấu trúc nội dung chưa phù hợp và các dấu hiệu bất thường trong trích dẫn. Kết hợp với Rule-based để phát hiện lỗi định dạng. |
+| **Judgment** — con người cân nhắc, quyết định gì? | Giảng viên kiểm tra tính chính xác của các cảnh báo, xác định lỗi thực tế, đánh giá chất lượng nội dung, lập luận và mức độ đáp ứng yêu cầu học thuật. |
+| **Action** — hành động cuối cùng là gì, ai làm? | Hệ thống tự động tạo báo cáo rà soát. Giảng viên xác minh cảnh báo, đọc sâu bài làm, viết nhận xét và quyết định điểm số cuối cùng. |
+| **Outcome** — đo kết quả bằng gì? | Thời gian rà soát mỗi bài (mục tiêu giảm từ 21 xuống 16 phút); thời gian kiểm tra cơ học (từ 8 xuống 3 phút); tỷ lệ phát hiện lỗi chính xác; tỷ lệ cảnh báo sai và tỷ lệ bỏ sót lỗi. |
+| **Input** — AI cần dữ liệu đầu vào gì mỗi lần chạy? Có sẵn không? | File bài làm Word/PDF, rubric tương ứng và quy định định dạng, trích dẫn. Các dữ liệu này có sẵn từ bài nộp và tài liệu hướng dẫn của giảng viên. |
+| **Feedback** — lấy phản hồi ở đâu để cải thiện? | Thu thập kết quả giảng viên xác nhận hoặc loại bỏ từng cảnh báo, các lỗi hệ thống bỏ sót và phản hồi về mức độ hữu ích của báo cáo. Sử dụng dữ liệu này để điều chỉnh quy tắc kiểm tra, prompt và cách xử lý của AI. |
 
 ### 6.4. Hai câu hỏi của Google PAIR
 
-- Người dùng muốn **được hỗ trợ (augment)** hay **giao hẳn việc (automate)**? Bằng chứng:
-- AI sai kiểu nào tệ hơn, **báo nhầm** hay **bỏ sót**? Vì sao, và thiết kế đã xử lý thế nào:
+- **Người dùng muốn được hỗ trợ (augment) hay giao hẳn việc (automate)? Bằng chứng:**
 
+  Người dùng muốn được **hỗ trợ (augment)** thay vì giao hoàn toàn công việc cho AI. AI và Rule-based chỉ đảm nhận việc rà soát sơ bộ những tiêu chí có thể tự động hóa, giúp giảng viên giảm thời gian kiểm tra lặp lại. Giảng viên vẫn trực tiếp xác minh cảnh báo, đọc sâu nội dung, đánh giá lập luận và quyết định điểm số. Điều này được thể hiện trong quy trình tương lai khi có riêng bước 3 để giảng viên xác minh kết quả tự động và bước 4, 5 dành cho đánh giá chuyên môn và hoàn tất chấm bài.
+
+- **AI sai kiểu nào tệ hơn, báo nhầm hay bỏ sót? Vì sao, và thiết kế đã xử lý thế nào:**
+
+  **Bỏ sót lỗi (False Negative) nghiêm trọng hơn báo nhầm (False Positive)** vì một lỗi định dạng, thiếu tiêu chí rubric hoặc bất thường trong trích dẫn không được phát hiện có thể khiến giảng viên bỏ qua vấn đề khi rà soát sơ bộ. Tuy nhiên, báo nhầm quá nhiều cũng làm tăng thời gian xác minh và giảm niềm tin vào hệ thống.
+
+  Thiết kế xử lý bằng cách:
+  - Các phát hiện của AI chỉ là cảnh báo, không phải kết luận cuối cùng.
+  - Giảng viên kiểm tra lại báo cáo với bài làm gốc và rubric trước khi xác nhận lỗi.
+  - Với tiêu chí không chắc chắn hoặc khó đánh giá tự động, hệ thống đánh dấu cần kiểm tra thủ công thay vì đưa ra kết luận chắc chắn.
+  - Không sử dụng kết quả AI để tự động trừ điểm hoặc thay đổi điểm số.
+  - Khi hệ thống gặp lỗi, không xử lý được tài liệu hoặc kết quả không đáng tin cậy, giảng viên quay về quy trình kiểm tra thủ công theo rubric gốc.
 ---
 
 ## 7. Problem Statement v1 + tiêu chí đánh giá (CP6)
