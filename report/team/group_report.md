@@ -29,7 +29,7 @@
 | 9 | Anh | 3. Reproduce paper | | | |
 | 10 | Anh | 8. Debug kết quả nghiên cứu | | | |
 | 11 | Anh | 2. Xây dựng nền tảng | | | |
-| 12 | | | | | |
+| 12 | KimY| Khi bắt đầu một tuần học mới, tôi muốn nắm được tất cả bài tập, deadline và lịch báo cáo của các môn để không bỏ sót nhiệm vụ quan trọng| | | |
 
 ### 2.2. Cluster
 
@@ -65,8 +65,8 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 | # | Candidate (Tóm tắt) | Actor rõ | Quy trình rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh được No AI/Rule/Workflow/Agent | Nhóm hiểu domain | Tổng |
 |---:|---|---:|---:|---:|---:|---:|---:|---:|---:|
 | 6 | Rà soát sơ bộ định dạng & tiêu chí bài tập lớn (Tran) | 4 | 5 | 4 | 4 | 5 | 5 | 5 | **32** |
-| 7 | Giải đáp thắc mắc lặp lại về quy chế đồ án (Tran) | 4 | 5 | 4 | 4 | 5 | 5 | 5 | **32** |
-| 5 | Phối hợp & theo dõi tiến độ nhóm không đồng đều (Thao) | 5 | 4 | 4 | 4 | 4 | 4 | 5 | **30** |
+| 8 | Tìm kiếm, đọc hiểu và tổng hợp tài liệu (Thao) | 5 | 4 | 4 | 4 | 5 | 5 | 5 | **32** |
+| 7 | Giải đáp thắc mắc lặp lại về quy chế đồ án (Tran) | 4 | 5 | 4 | 4 | 4 | 4 | 5 | **30** |
 
 
 **Candidate được chọn:**
