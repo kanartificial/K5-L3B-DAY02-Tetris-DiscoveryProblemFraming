@@ -106,30 +106,68 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 *Điền 4–6 giả định; xóa dòng thừa.*
 
-Giả định nhóm kiểm chứng trong buổi này:
+Giả định nhóm kiểm chứng trong buổi này: **Giả định #1, #2, #3, #4 và #5** (các giả định có mức độ quan trọng cao 4–5 và mức độ bằng chứng hiện tại thấp 1/5).
 
 ### 3.2. Kiểm chứng
 
-Cách đã dùng: Phỏng vấn / Survey / Log, ticket, review
+Cách đã dùng: **Survey (Khảo sát trực tuyến qua Google Forms với mẫu N = 20 sinh viên) kết hợp Phỏng vấn sâu (The Mom Test)**
 
-Interview snapshot (mỗi buổi phỏng vấn một bảng, hoặc đặt file trong `report/assets/cp4-interview-snapshot-N.md`):
+#### 1. Kết quả phân tích số liệu thực tế từ khảo sát (N = 20 sinh viên)
+
+* **Đối tượng khảo sát (Câu 1 & 2):**
+  - **Cơ cấu năm học:** 50% sinh viên Năm 3–4 (10 bạn); 25% sinh viên Năm 1–2 (5 bạn); 25% sinh viên đang làm đồ án tốt nghiệp (5 bạn).
+  - **Khối lượng bài tập lớn/học kỳ:** 50% làm 1–2 bài/kỳ (10 bạn); 45% làm 3–5 bài/kỳ (9 bạn); 5% làm trên 5 bài/kỳ (1 bạn).
+* **Tỷ lệ từng bị phạt/nhắc nhở lỗi hình thức, quy cách (Câu 3 - Xác nhận Giả định #1 & #2):**
+  - **95% sinh viên (19/20 bạn)** xác nhận **từng bị trừ điểm hoặc bị nhắc nhở** vì các lỗi hình thức/quy cách (chỉ duy nhất 1 bạn chưa từng bị).
+  - **Top các lỗi quy cách phổ biến nhất:**
+    1. *Sai quy chuẩn trích dẫn nguồn (citation) / danh mục tài liệu tham khảo:* **70% (14/20 bạn)** gặp phải.
+    2. *Đánh số hình ảnh, bảng biểu không đúng chuẩn hoặc thiếu danh mục:* **60% (12/20 bạn)** gặp phải.
+    3. *Đặt tên file nộp bài sai cấu trúc yêu cầu của giảng viên/hệ thống:* **55% (11/20 bạn)** gặp phải.
+    4. *Sai font chữ, cỡ chữ, dãn dòng, căn lề trang:* **50% (10/20 bạn)** gặp phải.
+    5. *Sai quy cách trang bìa, thiếu lời cam đoan/thông tin đề tài:* **35% (7/20 bạn)** gặp phải.
+* **Tỷ lệ nộp bài xong mới phát hiện bỏ sót tiêu chí Rubric (Câu 4 - Xác nhận Giả định #1 & #3):**
+  - **90% sinh viên (18/20 bạn)** từng rơi vào cảnh nộp bài xong mới biết nhóm mình bỏ sót yêu cầu/tiêu chí trong rubric (trong đó **35% bị thường xuyên** ở hầu hết các kỳ học; **55% bị thỉnh thoảng** 1–2 lần).
+  - Chỉ có **10% (2 bạn)** chưa từng bị sót tiêu chí.
+* **Cách rà soát hiện tại (Workaround - Câu 5 - Kiểm chứng Giả định #3 & #5):**
+  - **60% (12 bạn):** Tự đọc lướt bằng mắt từ đầu đến cuối file Word/PDF.
+  - **60% (12 bạn):** Phân công 1 bạn trong nhóm làm nhiệm vụ "soát lỗi" thủ công trước giờ nộp.
+  - **20% (4 bạn):** Dùng công cụ kiểm tra chính tả/ngữ pháp (Grammarly, LanguageTool).
+  - **10% (2 bạn):** Dán nội dung vào ChatGPT/Claude để hỏi chung chung.
+  - *Nhận xét:* 100% sinh viên vẫn phụ thuộc vào rà soát thủ công bằng mắt trong trạng thái gấp gáp sát giờ nộp bài, giải thích vì sao vẫn liên tục sót lỗi.
+* **Đánh giá mức độ rõ ràng của Rubric nhận được (Câu 6 - Thang 1–5 - Phản biện Giả định #4):**
+  - Điểm trung bình: **3.05 / 5.0**.
+  - Đáng chú ý: **40% sinh viên (8/20 bạn)** đánh giá độ rõ ràng ở mức thấp (điểm 1 và 2). Điều này bác bỏ một phần Giả định #4: rubric thực tế thường không đủ rõ ràng hoặc quá dài dòng, khiến sinh viên rất khó tự đối chiếu một cách khách quan.
+
+---
+
+#### 2. Interview snapshot (Trích xuất trường hợp điển hình từ khảo sát)
+
+> Xem bản ghi chép chi tiết tại: [report/assets/cp4-interview-snapshot-1.md](../assets/cp4-interview-snapshot-1.md)
 
 | Trường | Nội dung |
 |---|---|
-| Người được hỏi (vai trò, không ghi tên thật) | |
-| Câu nói đáng nhớ nhất (nguyên văn) | |
-| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | |
-| Hiện đang xử lý bằng cách nào (workaround)? | |
-| Mất bao lâu, bao lần? | |
-| Insight / opportunity rút ra | |
+| Người được hỏi (vai trò, không ghi tên thật) | Sinh viên Năm 3–4 (làm 3–5 bài tập lớn/kỳ, thường xuyên bị trừ điểm lỗi quy cách và sót tiêu chí rubric) |
+| Câu nói đáng nhớ nhất (nguyên văn) | *"Nhiều khi cả nhóm thức trắng đêm làm nội dung, đến sát giờ nộp mới cuống cuồng phân công một bạn đọc lướt lại toàn bộ file 30 trang. Cứ đinh ninh đủ bài rồi, đến lúc thầy chấm trả điểm mới biết nhóm quên mất tiêu chí danh mục hình ảnh và bị trừ mất 0.5 điểm oan."* |
+| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | Đợt nộp báo cáo tiểu luận giữa kỳ môn chuyên ngành tháng trước |
+| Hiện đang xử lý bằng cách nào (workaround)? | Phân công một bạn trong nhóm ngồi rà lướt bằng mắt từng trang trước giờ deadline 30 phút |
+| Mất bao lâu, bao lần? | Mất 45–60 phút mỗi lần rà soát bài nộp; mỗi học kỳ làm 3–4 môn là mất 3–4 lần rà soát căng thẳng trong tâm lý sợ sót lỗi |
+| Insight / opportunity rút ra | Sinh viên rất cần một cơ chế tự động đối soát nhanh file bài làm với rubric (kiểm tra font, lề, số bảng hình, chuẩn trích dẫn) để phát hiện sớm các thiếu sót trước khi submit chính thức |
 
-Tổng hợp:
+---
+
+#### 3. Tổng hợp
 
 | Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác |
 |---|---:|---|---|
-| | | | |
+| Khảo sát thực tế Google Forms | 20 sinh viên (Năm 1–2: 5, Năm 3–4: 10, Đồ án tốt nghiệp: 5) | • **Xác nhận Giả định #1, #2, #3:** 95% (19/20) từng bị trừ điểm lỗi hình thức (trích dẫn 70%, bảng hình 60%); 90% (18/20) nộp bài xong mới biết sót tiêu chí rubric.<br>• **Xác nhận Giả định #5:** 60% chỉ biết đọc lướt mắt hoặc giao 1 bạn làm thủ công, các công cụ sẵn có (Grammarly) chỉ xử lý chính tả mà không đối soát được rubric môn học. | • **Phản biện Giả định #4:** Có tới 40% sinh viên chấm điểm rubric ở mức 1–2 (kém rõ ràng). Do đó không thể giả định rubric luôn chuẩn hóa, hệ thống cần có bước trích xuất/làm rõ rubric trước khi kiểm tra bài.<br>• 1 sinh viên (5%) chưa từng bị phạt lỗi hình thức nhờ dùng template cố định. |
+
+---
 
 **Nhóm đã sửa problem thế nào sau kiểm chứng:**
+- **Mở rộng góc nhìn giá trị:** Ban đầu nhóm chỉ nhìn bài toán từ phía áp lực của **Trợ giảng / Giảng viên** (mất 8 phút/bài kiểm tra cơ học). Dữ liệu khảo sát 20 sinh viên chứng minh **phía người học cũng chịu nỗi đau tương đương**: 90% nộp bài xong mới biết sót rubric, 95% bị mất điểm oan uổng vì lỗi quy cách.
+- **Xác định rõ phạm vi can thiệp (Boundary):**
+  - Công cụ **tập trung đúng vào các lỗi hình thức có tỷ lệ vi phạm cao nhất theo khảo sát:** trích dẫn chuẩn APA/IEEE (70%), danh mục bảng/hình (60%), quy chuẩn font/lề (50%) và đối chiếu đủ mục rubric (90% từng bỏ sót).
+  - Giữ vững nguyên tắc: **Không can thiệp vào việc chấm nội dung hay cho điểm**, mà đóng vai trò là **bảng kiểm tra tính hợp lệ & đối chiếu rubric (Compliance Checklist)** phục vụ cả sinh viên trước khi nộp lẫn người chấm khi thu bài.
 
 ### 3.3. Research giải pháp đã có
 
@@ -181,18 +219,34 @@ HIỆN TẠI — 21 phút/bài (Tổng ~15.75 tiếng cho lớp 45 sinh viên)
 Ghi rõ bước nào **Rule**, bước nào **AI**, bước nào **con người**, **boundary** ở đâu, **phương án quay về** khi AI sai.
 
 ```text
+TƯƠNG LAI — khoảng 14.5 phút/bài (Tổng ~10.9 tiếng cho lớp 45 sinh viên, tiết kiệm gần 5 tiếng)
 
+[1. Tải bài nộp & Rubric vào hệ thống: 0.5']                 ← RULE
+→ [2. Quét kiểm tra format: font, lề, số trang, bảng/hình: 0.5'] ← RULE (Trích xuất metadata file docx/pdf)
+→ [3. Đối chiếu mục lục với rubric & kiểm tra trích dẫn: 1']     ← AI (LLM semantic parser & matching)
+→ [4. Xuất Bảng Compliance Checklist tự động: 0.5']          ← RULE (Tổng hợp báo cáo đạt/chưa đạt)
+→ [5. Giảng viên / TA xem nhanh checklist: 1']               ← CON NGƯỜI (HITL - rà soát cảnh báo)
+→ [6. Đọc sâu nội dung & lập luận học thuật: 9']             ← CON NGƯỜI
+→ [7. Viết nhận xét chuyên môn & nhập điểm chính thức: 2']    ← CON NGƯỜI (Quyết định điểm số 100%)
+
+BOUNDARY:
+- AI tuyệt đối KHÔNG tự cho điểm, không đánh giá độ hay/dở của lập luận học thuật, không tự ý gửi điểm hoặc phản hồi cho sinh viên.
+- Mọi cảnh báo lỗi về rubric hay trích dẫn bắt buộc phải trích xuất kèm số trang, vị trí đoạn văn cụ thể để con người kiểm chứng được ngay.
+
+PHƯƠNG ÁN QUAY VỀ (FALLBACK):
+- Khi file bị mã hóa, lỗi font không parse được, hoặc AI đưa ra độ tin cậy thấp (<80% confidence): Hệ thống tự động gắn nhãn [Cần kiểm tra thủ công].
+- Giảng viên/TA bỏ qua bước checklist, mở file gốc và đối chiếu rubric thủ công bằng mắt theo quy trình cũ.
 ```
 
 ### 4.3. Before / after
 
 | Chỉ số | Trước | Sau (kỳ vọng) | Ghi chú |
 |---|---:|---:|---|
-| Số bước | | | |
-| Tổng thời gian | | | |
-| Số bước thủ công | | | |
-| Bottleneck chính | | | |
-| Rủi ro mới phát sinh | | | |
+| **Số bước** | 6 bước | 7 bước | Tách quy trình thành các bước xử lý tự động nhỏ hơn, minh bạch hơn |
+| **Tổng thời gian** | 21 phút/bài (~15.75 tiếng/lớp 45 SV) | ~14.5 phút/bài (~10.9 tiếng/lớp 45 SV) | Giảm ~31% tổng thời gian chấm; riêng khâu kiểm tra quy cách giảm 75% (từ 8' xuống 2') |
+| **Số bước thủ công** | 6 / 6 bước (100% người làm) | 3 / 7 bước (43% người làm) | Khâu đọc hiểu chuyên môn và quyết định điểm số vẫn thuộc 100% về con người |
+| **Bottleneck chính** | Khâu rà soát cơ học định dạng, mục lục, trích dẫn (8 phút/bài) | Khâu đọc sâu nội dung & đánh giá lập luận (9 phút/bài) | Nút thắt chuyển dịch lành mạnh sang khâu đòi hỏi tư duy chuyên môn sư phạm |
+| **Rủi ro mới phát sinh** | Không có (chỉ có mệt mỏi và dễ sót lỗi thủ công) | AI nhận diện nhầm tiêu đề hoặc báo sai lỗi trích dẫn (False Positive/Negative); người chấm quá ỷ lại vào checklist | Xử lý bằng Boundary: AI bắt buộc dẫn chứng số trang; người chấm chỉ coi checklist là công cụ hỗ trợ rà soát sơ bộ |
 
 ---
 
@@ -200,16 +254,19 @@ Ghi rõ bước nào **Rule**, bước nào **AI**, bước nào **con người*
 
 | Trường | Nội dung |
 |---|---|
-| **Actor** | |
-| **Quy trình** | |
-| **Bottleneck** | |
-| **Impact** | |
-| **Success Metric** (baseline → target, cách đo) | |
-| **Boundary** (AI không được làm gì; khi nào cần con người kiểm tra — HITL) | |
+| **Actor** | Giảng viên và Trợ giảng (TA) phụ trách chấm bài tập lớn/tiểu luận môn học (từ 15 trang trở lên), cùng sinh viên thực hiện bài nộp |
+| **Quy trình** | Nhận file bài làm (Word/PDF) → Kiểm tra định dạng cơ học (font, lề, số trang, danh mục bảng/hình) → Đối chiếu mục lục với các tiêu chí rubric → Rà soát chuẩn trích dẫn tài liệu tham khảo → Đọc sâu nội dung và lập luận → Viết nhận xét và nhập điểm lên hệ thống |
+| **Bottleneck** | Khâu rà soát thủ công định dạng, đối chiếu danh mục rubric và kiểm tra chuẩn trích dẫn (bước 2, 3, 4) mất tới **8 phút/bài (chiếm 38.1% tổng thời gian)** |
+| **Impact** | • *Người chấm:* Với lớp 45 sinh viên mất ~6 tiếng làm việc cơ học lặp đi lặp lại; áp lực deadline (3–5 ngày) dẫn đến kiệt sức, nhận xét chuyên môn bị sơ sài hoặc trễ hạn trả bài.<br>• *Người học:* Khảo sát N = 20 cho thấy 95% từng bị trừ điểm lỗi hình thức, 90% nộp xong mới biết sót tiêu chí rubric, gây mất điểm oan uổng |
+| **Success Metric** (baseline → target, cách đo) | • *Baseline:* Thời gian rà soát quy cách là 8 phút/bài; tổng thời gian chấm là 21 phút/bài (đo bằng khảo sát N = 20 và phỏng vấn TA).<br>• *Target:* Giảm thời gian rà soát quy cách xuống dưới 2 phút/bài (giảm 75%); tổng thời gian chấm giảm xuống dưới 15 phút/bài; tỷ lệ phát hiện đúng lỗi quy cách đạt ≥ 90%.<br>• *Cách đo:* Bấm giờ thực tế trên mẫu thử nghiệm 20 bài trong đợt nộp bài tiếp theo |
+| **Boundary** (AI không được làm gì; khi nào cần con người kiểm tra — HITL) | • AI tuyệt đối KHÔNG tự cho điểm, không đánh giá độ hay/dở của lập luận học thuật, không tự ý gửi điểm/phản hồi cho sinh viên.<br>• Mọi cảnh báo lỗi về rubric hay trích dẫn bắt buộc phải trích xuất kèm số trang, vị trí đoạn văn cụ thể.<br>• Con người (TA/Giảng viên) giữ 100% quyền duyệt nội dung và quyết định điểm số (HITL) |
 
 Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng ý không:
 
--
+- **Phản biện 1:** *"Success Metric hiện tại chỉ đo về tốc độ/thời gian, chưa đo chất lượng của việc kiểm tra (nếu làm nhanh hơn nhưng bỏ sót nhiều lỗi hơn thì sao)?"*
+  - *Nhóm đồng ý:* Nhóm bổ sung tiêu chí đo chất lượng ở phiên bản v1: Tỷ lệ phát hiện đúng lỗi quy cách (Precision/Recall) phải đạt $\ge 90\%$ so với kiểm tra thủ công.
+- **Phản biện 2:** *"Có nên để AI gợi ý luôn mức điểm trừ cho từng lỗi hình thức (ví dụ: trừ 0.5 điểm nếu thiếu mục lục) không?"*
+  - *Nhóm không đồng ý:* Nhóm kiên quyết giữ vững Boundary: AI chỉ đóng vai trò trích xuất bảng checklist Đạt/Chưa đạt kèm bằng chứng; việc trừ bao nhiêu điểm hoàn toàn thuộc quyền quyết định sư phạm của giảng viên.
 
 ---
 
