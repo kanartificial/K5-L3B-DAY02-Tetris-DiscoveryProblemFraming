@@ -1,19 +1,15 @@
 # Báo cáo cá nhân — 2A202603974_KhongNgocAnh
 
-> Đổi tên file theo quy tắc `MSSV_HoTen.md`, ví dụ `20241234_NguyenVanAn.md` (MSSV trước, dấu `_`, họ tên viết liền không dấu). Sửa cả dòng tiêu đề phía trên cho khớp.
-> Template chi tiết và prompt mẫu cho từng mục: [docs/01-worksheet.md](../../docs/01-worksheet.md).
-> Mỗi thành viên một file trong `report/individual/` trên repo nhóm: copy template này thành file mới, điền, rồi commit bằng tài khoản GitHub của bạn. Không viết hộ người khác.
-
 ## 1. Thông tin học viên
 
 - Họ tên: Khổng Ngọc Anh
 - MSSV: 2A202603974
 - Email trường (không bắt buộc, repo có thể để public):
 - Tên nhóm: Tetris
-- Link repo nhóm:
+- Link repo nhóm: [Link](https://github.com/kanartificial/K5-L3B-DAY02-Tetris-DiscoveryProblemFraming)
 
 ---
-
+Link
 ## 2. Scan problem (CP1)
 
 Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng hợp nhiều thông tin** · **Pain từ người khác**.
@@ -21,13 +17,13 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 | # | Lăng kính | Job Story: Khi… tôi muốn… để… | Ai chịu ảnh hưởng? | Dấu hiệu thật (thời gian, tần suất, số người, bằng chứng) |
 |---:|---|---|---|---|
 | 1 | Cần đọc, tổng hợp nhiều thông tin | 	Khi cần đánh giá các tiến triển mới trong lĩnh vực mình nghiên cứu, tôi muốn xác định những kết quả quan trọng và sự khác biệt so với các nghiên cứu trước, để quyết định chủ đề nào đáng tìm hiểu sâu hơn. | RA, PhD student, PI | Hằng tuần hoặc hằng tháng. 3-8h/lần |
-| 2 | Tốn thời gian | Khi mới tham gia một dự án nghiên cứu chưa có kiến thức nền tảng, tôi muốn hiểu những khái niệm và công trình tiền đề cần thiết, để có thể đọc hiểu các paper chính và bắt đầu đóng góp vào dự án. | research student mới | 21–56 giờ học và thực hành. |
+| 2 | Tốn thời gian | Khi mới tham gia một dự án nghiên cứu chưa có kiến thức nền tảng, tôi muốn hiểu những khái niệm và công trình tiền đề cần thiết, để có thể đọc hiểu các paper chính và bắt đầu đóng góp vào dự án. | research student mới | 21-56 giờ học và thực hành. |
 | 3 | Lặp lại | Khi cần reproduce kết quả của một paper, tôi muốn tái hiện được điều kiện thí nghiệm và kết quả được báo cáo, để xác minh kết quả và có baseline đáng tin cậy cho nghiên cứu tiếp theo. | RA, research student | 10-30 giờ |
 | 4 | Lặp lại | Khi thực hiện nhiều lượt thí nghiệm với các cấu hình khác nhau, tôi muốn xác định chính xác kết quả tương ứng với mỗi cấu hình và những lần chạy thất bại, để có thể so sánh các giả thuyết một cách đáng tin cậy. | RA | Có thể nhiều lần mỗi ngày hoặc mỗi tuần trong giai đoạn thực nghiệm. |
 | 5 | Cần đọc, tổng hợp nhiều thông tin | Khi bắt đầu nghiên cứu một câu hỏi mới, tôi muốn xác định những công trình liên quan nhất và những hạn chế của chúng, để biết câu hỏi của mình đã được giải quyết đến đâu và xác định đóng góp nghiên cứu.| RA, PhD student | 2-3 ngày |
 | 6 | Pain từ người khác | Khi tiếp nhận một dự án từ thành viên cũ của lab, tôi muốn hiểu những quyết định nghiên cứu, thí nghiệm đã thử và hạn chế đã phát hiện, để không lặp lại những công việc không cần thiết.| RA, research student mới | 10 - 30 giờ |
 | 7 | Tốn thời gian | Khi mới được giao tiếp tục một dự án có sẵn của lab, tôi muốn hiểu cấu trúc code, dữ liệu và cách thực hiện thí nghiệm, để có thể bắt đầu làm việc mà không mất quá nhiều thời gian làm quen. | RA, research student mới | 10 - 30 giờ|
-| 8 | Tốn thời gian | Khi một thí nghiệm không đạt kết quả mong đợi, tôi muốn xác định nguyên nhân đến từ implementation, dữ liệu hay giả thuyết nghiên cứu, để quyết định có nên tiếp tục hướng thử nghiệm đó. | RA, research student | 4–18 giờ mỗi lần|
+| 8 | Tốn thời gian | Khi một thí nghiệm không đạt kết quả mong đợi, tôi muốn xác định nguyên nhân đến từ implementation, dữ liệu hay giả thuyết nghiên cứu, để quyết định có nên tiếp tục hướng thử nghiệm đó. | RA, research student | 4-18 giờ mỗi lần|
 
 **Nếu có dùng AI để gợi ý thêm:** 
 - AI gợi ý thêm problem 6 7 8 
@@ -185,16 +181,16 @@ flowchart TD
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Pitch 3 problem card cá nhân | 3 candidate được phản biện, đóng góp cho lựa chọn cuối cùng |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: Liệu AI có can thiệp vào điểm số thật của sinh viên không? | Bạn đã bổ sung Boundary: AI tuyệt đối không chấm điểm, không sửa bài; giảng viên quyết định 100% điểm số.|
+| Nhận phản biện | Câu hỏi tôi nhận được: Liệu có đánh giá được đúng đắn thời gian để đạt ngưỡng năng lực không? | Tôi đã sửa gì: Tôi đã định nghĩa lại metric. Tuy nhiên cuối cùng đề xuất không được chọn |
+| Gom cluster / cây OST | Không phụ trách trực tiếp | Giúp nhóm thoát khỏi bẫy nghĩ giải pháp trước, tập trung vào nhu cầu rà soát tuân thủ quy cách và đối chiếu rubric. |
+| Chọn candidate problem | Phản biện candidate #6 | NNhóm thảo luận, đánh giá lại và chốt Candidate #6 làm bài toán chính để đi tiếp vào CP4–CP7.|
+| Kiểm chứng / research | Phụ trách Assumption Map | Giúp nhóm tạo câu hỏi để kiểm chứng/research|
+| Quy trình nhóm | Phụ trách quy trình sau, đóng góp ý kiến cho quy trình trước| Quy trình hiện tại thể hiện rõ nút thắt, quy trình sau xác định rõ điểm can thiệp của Rule và AI kết hợp bước xác minh của con người (HITL) |
+| Problem Statement | Phụ trách, đóng góp ý kiến cho bản v0 và v1 | Problem Statement v1 có metric đo lường khả thi, có boundary an toàn về đạo đức giáo dục và ranh giới rõ ràng cho bài tập từ 15 trang trở lên.|
+| Mức can thiệp AI | Không phụ trách trực tiếp   | Nhóm chốt mức can thiệp là Workflow kết hợp Rule-based và AI, giữ vai trò xác minh cho giảng viên/TA. |
+| Quyết định | Đóng góp ý kiến | Nhóm thống nhất chọn quyết định Not Yet có căn cứ vững chắc, tránh false positive và có lộ trình kiểm chứng cụ thể trước khi đầu tư kỹ thuật.|
 
 ---
 
@@ -213,19 +209,19 @@ flowchart TD
 
 ## 6. Reflection (CP7)
 
-Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
+Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.** 
 
-**6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+**6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?** Rằng những vấn đề dễ định nghĩa, dễ tìm giải pháp vẫn quan trọng hơn những 
 
-**6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+**6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?** Nhóm đã nghĩ ngay đến chatbot cho một số idea, tuy nhiên sau đó nhóm đã đánh giá lại vấn đề
 
-**6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+**6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.** Tôi có bổ sung các ý kiến phản biện, tuy nhiên không hoàn toàn đổi ý 
 
-**6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+**6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?** Không
 
-**6.5. Điều khó nhất khi viết Problem Statement là gì?**
+**6.5. Điều khó nhất khi viết Problem Statement là gì?** Định nghĩa đầy đủ Metric và Boundary
 
-**6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+**6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?** Tôi sẽ chọn một vấn đề có metric rõ ràng hơn. Và cũng sẽ phản biện mạnh hơn ở metric
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
 
