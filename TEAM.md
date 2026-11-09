@@ -55,16 +55,21 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 **Phần việc phụ trách:**
 
--
+- Phân tích và lựa chọn vấn đề, xác định mức độ can thiệp AI cho bài toán nhóm.
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
--
+- **CP3 – Mục 2.2:** Phân nhóm các candidate theo pattern chung (Cluster).
+- **CP3 - Mục 2.4:** Research về bảng chấm điểm shortlist.
+- **CP6 – Mục 6:** Phân tích các mức can thiệp AI, lựa chọn Workflow và xác định boundary, fallback.
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
--
+- `group_report.md`: Mục 2.2, mục 2.4, mục 6 (CP6).
+- Commit GitHub: Các commit chứa nội dung cập nhật những mục trên.
 
 **Điều mình học được từ phần nhóm:**
 
--
+- Biết cách xác định pain point từ nhu cầu thực tế thay vì nghĩ giải pháp trước.
+- Học cách phân tích quy trình, tìm bottleneck và lựa chọn metric để đánh giá hiệu quả.
+
