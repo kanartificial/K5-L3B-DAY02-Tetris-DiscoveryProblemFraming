@@ -1,4 +1,4 @@
-# Báo cáo cá nhân — MSSV_HoTen
+# Báo cáo cá nhân — 2A202603966_VuongThuThao
 
 > Đổi tên file theo quy tắc `MSSV_HoTen.md`, ví dụ `20241234_NguyenVanAn.md` (MSSV trước, dấu `_`, họ tên viết liền không dấu). Sửa cả dòng tiêu đề phía trên cho khớp.
 > Template chi tiết và prompt mẫu cho từng mục: [docs/01-worksheet.md](../../docs/01-worksheet.md).
@@ -80,23 +80,13 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 #### Quy trình nháp hiện tại:
 
 ```text
-Nhận yêu cầu bài tập
-        ↓
-Xác định chủ đề cần nghiên cứu
-        ↓
-Tìm kiếm tài liệu từ nhiều nguồn
-        ↓
-Tải và đọc từng tài liệu
-        ↓
-Tìm kiếm thông tin liên quan
-        ↓
-Ghi chú các nội dung quan trọng
-        ↓
-Đối chiếu và loại bỏ thông tin trùng lặp
-        ↓
-Tổng hợp, sắp xếp nội dung
-        ↓
-Viết báo cáo / hoàn thành bài tập
+HIỆN TẠI — 120 phút
+
+[1 Nhận yêu cầu bài tập: 5'] → [2 Xác định chủ đề nghiên cứu: 10']
+→ [3 Tìm kiếm tài liệu từ nhiều nguồn: 20'] → [4 Tải và đọc tài liệu: 30']
+→ [5 Tìm kiếm, ghi chú thông tin liên quan: 20'] ← BOTTLENECK
+→ [6 Đối chiếu, loại bỏ thông tin trùng lặp: 15']
+→ [7 Tổng hợp, sắp xếp nội dung: 10'] → [8 Viết báo cáo: 10']
 ```
 
 ### Problem Card #2 – Khó khăn trong quản lý deadline và ưu tiên công việc
@@ -117,23 +107,13 @@ Viết báo cáo / hoàn thành bài tập
 #### Quy trình nháp hiện tại:
 
 ```text
-Nhận thông báo bài tập / deadline
-        ↓
-Ghi nhận các nhiệm vụ cần hoàn thành
-        ↓
-Lưu deadline vào lịch cá nhân
-        ↓
-Kiểm tra danh sách công việc
-        ↓
-Ước lượng thời gian thực hiện
-        ↓
-Tự sắp xếp thứ tự ưu tiên
-        ↓
-Thực hiện và cập nhật tiến độ
-        ↓
-Điều chỉnh kế hoạch khi phát sinh công việc
-        ↓
-Hoàn thành nhiệm vụ
+HIỆN TẠI — 90 phút
+
+[1 Nhận thông báo bài tập / deadline: 5'] → [2 Ghi nhận nhiệm vụ: 10']
+→ [3 Lưu deadline vào lịch cá nhân: 10'] → [4 Kiểm tra danh sách công việc: 10']
+→ [5 Ước lượng thời gian thực hiện: 15'] → [6 Tự sắp xếp thứ tự ưu tiên: 20'] ← BOTTLENECK
+→ [7 Thực hiện và cập nhật tiến độ: 10'] → [8 Điều chỉnh kế hoạch: 5']
+→ [9 Hoàn thành nhiệm vụ: 5']
 ```
 
 ### Problem Card #3 – Khó khăn trong phối hợp và theo dõi tiến độ làm việc nhóm
@@ -154,23 +134,15 @@ Hoàn thành nhiệm vụ
 #### Quy trình nháp hiện tại:
 
 ```text
-Nhận yêu cầu bài tập nhóm
-        ↓
-Xác định mục tiêu và khối lượng công việc
-        ↓
-Phân chia nhiệm vụ cho các thành viên
-        ↓
-Thống nhất deadline và cách báo cáo
-        ↓
-Các thành viên thực hiện nhiệm vụ
-        ↓
-Nhóm trưởng hỏi và kiểm tra tiến độ
-        ↓
-Tổng hợp kết quả từ các thành viên
-        ↓
-Phát hiện công việc chậm hoặc chưa hoàn thành
-        ↓
-Điều chỉnh phân công và hoàn thiện bài tập
+HIỆN TẠI — 120 phút
+
+[1 Nhận yêu cầu bài tập nhóm: 5'] → [2 Xác định mục tiêu và khối lượng công việc: 10']
+→ [3 Phân chia nhiệm vụ: 15'] → [4 Thống nhất deadline và cách báo cáo: 10']
+→ [5 Các thành viên thực hiện nhiệm vụ: 30']
+→ [6 Nhóm trưởng hỏi và kiểm tra tiến độ: 20'] ← BOTTLENECK
+→ [7 Tổng hợp kết quả từ các thành viên: 15']
+→ [8 Phát hiện công việc chậm hoặc chưa hoàn thành: 10']
+→ [9 Điều chỉnh phân công và hoàn thiện bài tập: 5']
 ```
 
 ### Card muốn pitch nhất
@@ -231,8 +203,8 @@ Tôi lựa chọn tiếp tục đào sâu vấn đề này thay vì mặc địn
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
+| CP1 Scan | Tìm kiếm và phân tích Pain Point của sinh viên, gợi ý hướng ứng dụng AI. | Giúp mở rộng ý tưởng và hệ thống hóa các vấn đề. | Một số ý tưởng tập trung vào AI hơn là nhu cầu thực tế; thiếu dữ liệu xác thực. | Loại bỏ các ý tưởng chưa phù hợp, chọn những vấn đề có ảnh hưởng rõ ràng và cần khảo sát thêm. |
+| CP2 Problem Card | Hỗ trợ xây dựng Job Story, quy trình, Bottleneck, Impact và giải pháp cho từng vấn đề. | Giúp cấu trúc hóa và phân tích vấn đề có hệ thống. | Một số nhận định còn chung chung, số liệu mục tiêu chưa có căn cứ thực tế. | Làm rõ quy trình, đánh dấu giả thuyết cần khảo sát và chọn vấn đề tổng hợp tài liệu làm hướng ưu tiên. |
 | CP4 Research | | | | |
 | CP5 Quy trình | | | | |
 | CP5–6 Problem Statement | | | | |
