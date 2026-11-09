@@ -15,7 +15,7 @@
 | 1 | | | | |
 | 2 | | | | |
 | 3 | | | | |
-| 4 | | | | |
+| 4 | Vương Thu Thảo | 2A202603966 | |ThuThaoVuong |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
 
@@ -38,6 +38,20 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `HoVaTen-MSSV`.
 
 ### HoVaTen-MSSV
+
+**Phần việc phụ trách:**
+
+-
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+-
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+-
+
+### VuongThuThao-2A202603966
 
 **Phần việc phụ trách:**
 

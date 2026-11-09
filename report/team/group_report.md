@@ -207,7 +207,6 @@ HIỆN TẠI — 21 phút/bài (Tổng ~15.75 tiếng cho lớp 45 sinh viên)
 
 
 **Bottleneck chính:**
-
 - Giảng viên mất nhiều thời gian cho các thao tác rà soát thủ công, lặp đi lặp lại như kiểm tra định dạng, đối chiếu rubric và kiểm tra trích dẫn.
 - Ba thao tác này chiếm tổng cộng **8 phút/bài (38,1% tổng thời gian)**, tương đương **6 tiếng với 45 sinh viên**.
 - Việc phải kiểm tra từng tiêu chí bằng tay dễ dẫn đến bỏ sót lỗi, thiếu nhất quán giữa các bài và làm tăng khối lượng công việc của giảng viên.
@@ -218,6 +217,7 @@ HIỆN TẠI — 21 phút/bài (Tổng ~15.75 tiếng cho lớp 45 sinh viên)
 
 Ghi rõ bước nào **Rule**, bước nào **AI**, bước nào **con người**, **boundary** ở đâu, **phương án quay về** khi AI sai.
 
+<<<<<<< HEAD
 ```text
 TƯƠNG LAI — khoảng 14.5 phút/bài (Tổng ~10.9 tiếng cho lớp 45 sinh viên, tiết kiệm gần 5 tiếng)
 
@@ -237,23 +237,53 @@ PHƯƠNG ÁN QUAY VỀ (FALLBACK):
 - Khi file bị mã hóa, lỗi font không parse được, hoặc AI đưa ra độ tin cậy thấp (<80% confidence): Hệ thống tự động gắn nhãn [Cần kiểm tra thủ công].
 - Giảng viên/TA bỏ qua bước checklist, mở file gốc và đối chiếu rubric thủ công bằng mắt theo quy trình cũ.
 ```
+=======
+
+
+Tổng thời gian dự kiến: 16 phút/bài, tương đương 12 giờ cho lớp 45 sinh viên. Quy trình gồm 5 bước, trong đó 4 bước có sự tham gia của giảng viên và 1 bước kiểm tra tự động.
+
+| Bước | Actor           | Input                                                    | Output                                                                                            | Thời gian / tần suất | Ghi chú                                                                                                                                                                             |
+| ---- | --------------- | -------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1    | Giảng viên      | Bài làm của sinh viên dưới dạng Word/PDF                 | File được tải lên và sẵn sàng kiểm tra                                                            | 1 phút/bài           | Giảng viên chọn bài làm và rubric tương ứng.                                                                                                                                        |
+| 2    | Rule-based + AI | File bài làm, rubric và quy định định dạng, trích dẫn    | Báo cáo rà soát sơ bộ gồm lỗi định dạng, mục rubric có thể bị thiếu và bất thường trong trích dẫn | 1 phút/bài           | TỰ ĐỘNG. Rule-based kiểm tra các tiêu chí định dạng xác định được. AI hỗ trợ kiểm tra cấu trúc nội dung và trích dẫn. Các phát hiện chỉ là cảnh báo, không phải kết luận chấm điểm. |
+| 3    | Giảng viên      | Báo cáo rà soát tự động và bài làm gốc                   | Danh sách lỗi đã được xác nhận hoặc loại bỏ cảnh báo sai                                          | 2 phút/bài           | Giảng viên kiểm chứng các cảnh báo, đặc biệt với tiêu chí mơ hồ hoặc yêu cầu đánh giá ngữ nghĩa.                                                                                    |
+| 4    | Giảng viên      | Nội dung bài làm, rubric và kết quả rà soát đã xác minh  | Đánh giá chuyên môn về nội dung, lập luận, phương pháp và mức độ đáp ứng yêu cầu học thuật        | 9 phút/bài           | Giảng viên trực tiếp đọc sâu và đánh giá chất lượng bài làm. AI không thay thế quyết định chuyên môn.                                                                               |
+| 5    | Giảng viên      | Kết quả đánh giá chuyên môn và danh sách lỗi đã xác minh | Nhận xét hoàn chỉnh và điểm số được nhập vào hệ thống                                             | 3 phút/bài           | Giảng viên tổng hợp nhận xét, quyết định điểm số cuối cùng và hoàn tất chấm bài.                                                                                                    |
+
+**Sau cải tiến**:
+- Bottleneck cơ học được rút ngắn: Các bước kiểm tra định dạng, rubric và trích dẫn trước đây mất 8 phút/bài, nay dự kiến còn 3 phút/bài (1 phút tự động và 2 phút xác minh).
+- Bottleneck còn lại: Bước 4 — Đọc sâu nội dung và lập luận, chiếm 9 phút/bài (56,25% tổng thời gian). Đây là công đoạn cần đánh giá chuyên môn của giảng viên.
+- Rủi ro mới: Rule-based hoặc AI có thể đưa ra cảnh báo sai hoặc bỏ sót lỗi, làm tăng thời gian xác minh.
+- Boundary: AI không tự chấm điểm, không tự sửa bài làm và không thay đổi số liệu đánh giá. Giảng viên quyết định kết quả cuối cùng.
+- Fallback: Khi kiểm tra tự động thất bại hoặc không đáng tin cậy, giảng viên quay về quy trình rà soát thủ công theo rubric gốc.
+
+>>>>>>> bfb26efbe59a8ae535ccc2fed3d8f830c0c228e3
 
 ### 4.3. Before / after
 
 | Chỉ số | Trước | Sau (kỳ vọng) | Ghi chú |
 |---|---:|---:|---|
+<<<<<<< HEAD
 | **Số bước** | 6 bước | 7 bước | Tách quy trình thành các bước xử lý tự động nhỏ hơn, minh bạch hơn |
 | **Tổng thời gian** | 21 phút/bài (~15.75 tiếng/lớp 45 SV) | ~14.5 phút/bài (~10.9 tiếng/lớp 45 SV) | Giảm ~31% tổng thời gian chấm; riêng khâu kiểm tra quy cách giảm 75% (từ 8' xuống 2') |
 | **Số bước thủ công** | 6 / 6 bước (100% người làm) | 3 / 7 bước (43% người làm) | Khâu đọc hiểu chuyên môn và quyết định điểm số vẫn thuộc 100% về con người |
 | **Bottleneck chính** | Khâu rà soát cơ học định dạng, mục lục, trích dẫn (8 phút/bài) | Khâu đọc sâu nội dung & đánh giá lập luận (9 phút/bài) | Nút thắt chuyển dịch lành mạnh sang khâu đòi hỏi tư duy chuyên môn sư phạm |
 | **Rủi ro mới phát sinh** | Không có (chỉ có mệt mỏi và dễ sót lỗi thủ công) | AI nhận diện nhầm tiêu đề hoặc báo sai lỗi trích dẫn (False Positive/Negative); người chấm quá ỷ lại vào checklist | Xử lý bằng Boundary: AI bắt buộc dẫn chứng số trang; người chấm chỉ coi checklist là công cụ hỗ trợ rà soát sơ bộ |
+=======
+| Số bước | 6 | 5 | Giảm 1 bước |
+| Tổng thời gian/bài | 21 phút | 16 phút | Giảm 23% |
+| Số bước thủ công | 6 | 4 | |
+| Bottleneck chính | Các bước kiểm tra định dạng, trích dẫn | Bước đọc sâu của giảng viên | |
+| Rủi ro mới phát sinh | | AI có thể cảnh báo sai hoặc lỗi | |
+>>>>>>> bfb26efbe59a8ae535ccc2fed3d8f830c0c228e3
 
 ---
 
 ## 5. Problem Statement v0 (CP5)
-
+lỗi
 | Trường | Nội dung |
 |---|---|
+<<<<<<< HEAD
 | **Actor** | Giảng viên và Trợ giảng (TA) phụ trách chấm bài tập lớn/tiểu luận môn học (từ 15 trang trở lên), cùng sinh viên thực hiện bài nộp |
 | **Quy trình** | Nhận file bài làm (Word/PDF) → Kiểm tra định dạng cơ học (font, lề, số trang, danh mục bảng/hình) → Đối chiếu mục lục với các tiêu chí rubric → Rà soát chuẩn trích dẫn tài liệu tham khảo → Đọc sâu nội dung và lập luận → Viết nhận xét và nhập điểm lên hệ thống |
 | **Bottleneck** | Khâu rà soát thủ công định dạng, đối chiếu danh mục rubric và kiểm tra chuẩn trích dẫn (bước 2, 3, 4) mất tới **8 phút/bài (chiếm 38.1% tổng thời gian)** |
@@ -267,6 +297,17 @@ Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng
   - *Nhóm đồng ý:* Nhóm bổ sung tiêu chí đo chất lượng ở phiên bản v1: Tỷ lệ phát hiện đúng lỗi quy cách (Precision/Recall) phải đạt $\ge 90\%$ so với kiểm tra thủ công.
 - **Phản biện 2:** *"Có nên để AI gợi ý luôn mức điểm trừ cho từng lỗi hình thức (ví dụ: trừ 0.5 điểm nếu thiếu mục lục) không?"*
   - *Nhóm không đồng ý:* Nhóm kiên quyết giữ vững Boundary: AI chỉ đóng vai trò trích xuất bảng checklist Đạt/Chưa đạt kèm bằng chứng; việc trừ bao nhiêu điểm hoàn toàn thuộc quyền quyết định sư phạm của giảng viên.
+=======
+| **Actor** | Giảng viên chấm đồ án, tiểu luận, bài tập|
+| **Quy trình** | Nhận bài, soát lỗi định dạng, soát cấu trúc theo rubric, soát trích dẫn, nhận xét nội dung, chấm bài|
+| **Bottleneck** | Qúa trình soát lỗi thủ công chiếm nhiều thời gian |
+| **Impact** | Thời gian chấm lâu gây quá tải dẫn đến trễ hạn trả bài; thời gian đọc sâu phần nội dung bị rút ngắn khiến nhận xét cho sinh viên sơ sài|
+| **Success Metric** (baseline → target, cách đo) | Thời gian kiểm tra định dạng và cấu trúc giảm từ 8 phút/bài xuống dưới 1.5 phút/bài; tổng thời gian chấm giảm từ 21 phút/bài xuống dưới 15 phút/bài; tỷ lệ phát hiện sót lỗi quy cách đạt >95% |
+| **Boundary** (AI không được làm gì; khi nào cần con người kiểm tra — HITL) | AI không tự chấm điểm, không tự sửa bài làm và không thay đổi số liệu đánh giá. Giảng viên quyết định kết quả cuối cùng.|
+
+Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng ý không:
+- Impact chưa tường mình và gây hiểu nhầm. Ví dụ, nếu giảng viên không có thời hạn chấm bài quá gấp, tiết kiệm 5 phút/bài không nhất thiết làm tăng chất lượng feedback. Đề xuất sửa impact thành: "Việc dành 8 phút/bài để rà soát các yêu cầu cơ học làm tăng tổng khối lượng chấm bài. Điều này có thể ảnh hưởng đến tiến độ trả bài và thời gian dành cho đánh giá chuyên môn khi giảng viên có quỹ thời gian giới hạn.". Nhóm đồng ý với feedbackfeedback
+>>>>>>> bfb26efbe59a8ae535ccc2fed3d8f830c0c228e3
 
 ---
 
