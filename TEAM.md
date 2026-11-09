@@ -12,7 +12,7 @@
 
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
-| 1 | | | | |
+| 1 | Khổng Ngọc Anh | 2A202603974| Trưởng nhóm, phụ trách quy trình, problem statement | kanartificial |
 | 2 | | | | |
 | 3 | Lý Hà Trân Trân | 2A202603968 | Phụ trách kiểm chứng | TranHa161 |
 | 4 | Vương Thu Thảo | 2A202603966 | Phụ trách phân tích vấn đề |ThuThaoVuong |
@@ -28,9 +28,9 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 | CP3 — Hội tụ nhóm | | | Cluster, cây OST, bảng chấm điểm |
 | CP4 — Kiểm chứng | Lý Hà Trân Trân | | Assumption map, snapshot hoặc survey |
 | CP4 — Research | | | Bảng research có link |
-| CP5 — Quy trình trước/sau | | | Quy trình + bảng before/after |
-| CP5 — Problem Statement v0 | | | Problem Statement v0 |
-| CP6 — Mức can thiệp + Problem Statement v1 | | | Ma trận, AI Canvas, eval, Problem Statement v1 |
+| CP5 — Quy trình trước/sau | Khổng Ngọc Anh | | Quy trình + bảng before/after |
+| CP5 — Problem Statement v0 | Khổng Ngọc Anh | Võ Thị Kim Ý | Problem Statement v0 |
+| CP6 — Mức can thiệp + Problem Statement v1 | Võ Thị Kim Ý | | Ma trận, AI Canvas, eval, Problem Statement v1 |
 | CP6 — Quyết định | Lý Hà Trân Trân | | 4 rủi ro + Go/Not Yet/No-Go |
 
 ## Cá nhân
