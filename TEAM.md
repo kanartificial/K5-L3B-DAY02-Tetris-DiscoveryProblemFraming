@@ -15,7 +15,7 @@
 | 1 | | | | |
 | 2 | | | | |
 | 3 | Lý Hà Trân Trân | 2A202603968 | Phụ trách kiểm chứng | TranHa161 |
-| 4 | Vương Thu Thảo | 2A202603966 | |ThuThaoVuong |
+| 4 | Vương Thu Thảo | 2A202603966 | Phụ trách phân tích vấn đề |ThuThaoVuong |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
 
@@ -89,10 +89,7 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
 - `group_report.md`: Mục 2.2, mục 2.4, mục 6 (CP6).
-- Commit GitHub: Các commit chứa nội dung cập nhật những mục trên.
+- Commit GitHub: commit `9d88f97`, `a929a09`, `1d96b2a`
 
-**Điều mình học được từ phần nhóm:**
 
-- Biết cách xác định pain point từ nhu cầu thực tế thay vì nghĩ giải pháp trước.
-- Học cách phân tích quy trình, tìm bottleneck và lựa chọn metric để đánh giá hiệu quả.
 
