@@ -215,16 +215,15 @@ Tổng thời gian dự kiến: 16 phút/bài, tương đương 12 giờ cho l�
 lỗi
 | Trường | Nội dung |
 |---|---|
-| **Actor** | |
-| **Quy trình** | |
-| **Bottleneck** | |
-| **Impact** | |
-| **Success Metric** (baseline → target, cách đo) | |
-| **Boundary** (AI không được làm gì; khi nào cần con người kiểm tra — HITL) | |
+| **Actor** | Giảng viên chấm đồ án, tiểu luận, bài tập|
+| **Quy trình** | Nhận bài, soát lỗi định dạng, soát cấu trúc theo rubric, soát trích dẫn, nhận xét nội dung, chấm bài|
+| **Bottleneck** | Qúa trình soát lỗi thủ công chiếm nhiều thời gian |
+| **Impact** | Thời gian chấm lâu gây quá tải dẫn đến trễ hạn trả bài; thời gian đọc sâu phần nội dung bị rút ngắn khiến nhận xét cho sinh viên sơ sài|
+| **Success Metric** (baseline → target, cách đo) | Thời gian kiểm tra định dạng và cấu trúc giảm từ 8 phút/bài xuống dưới 1.5 phút/bài; tổng thời gian chấm giảm từ 21 phút/bài xuống dưới 15 phút/bài; tỷ lệ phát hiện sót lỗi quy cách đạt >95% |
+| **Boundary** (AI không được làm gì; khi nào cần con người kiểm tra — HITL) | AI không tự chấm điểm, không tự sửa bài làm và không thay đổi số liệu đánh giá. Giảng viên quyết định kết quả cuối cùng.|
 
 Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng ý không:
-
--
+- Impact chưa tường mình và gây hiểu nhầm. Ví dụ, nếu giảng viên không có thời hạn chấm bài quá gấp, tiết kiệm 5 phút/bài không nhất thiết làm tăng chất lượng feedback. Đề xuất sửa impact thành: "Việc dành 8 phút/bài để rà soát các yêu cầu cơ học làm tăng tổng khối lượng chấm bài. Điều này có thể ảnh hưởng đến tiến độ trả bài và thời gian dành cho đánh giá chuyên môn khi giảng viên có quỹ thời gian giới hạn.". Nhóm đồng ý với feedbackfeedback
 
 ---
 
