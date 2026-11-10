@@ -13,7 +13,7 @@
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
 | 1 | Khổng Ngọc Anh | 2A202603974| Trưởng nhóm, phụ trách quy trình, problem statement | kanartificial |
-| 2 | | | | |
+| 2 | Võ Thị Kim Ý | 2A202603965 | Phụ trách research, tìm kiếm giải pháp đã có và viết problem statement | KimY22-it |
 | 3 | Lý Hà Trân Trân | 2A202603968 | Phụ trách kiểm chứng | TranHa161 |
 | 4 | Vương Thu Thảo | 2A202603966 | Phụ trách phân tích vấn đề |ThuThaoVuong |
 
@@ -27,7 +27,7 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 |---|---|---|---|
 | CP3 — Hội tụ nhóm | Cả nhóm | | Cluster, cây OST, bảng chấm điểm |
 | CP4 — Kiểm chứng | Lý Hà Trân Trân | | Assumption map, snapshot hoặc survey |
-| CP4 — Research | Vương Thu Thảo| | Bảng research có link, bảng điểm shortlist |
+| CP4 — Research | Vương Thu Thảo| Võ Thị Kim Ý | Bảng research có link, bảng điểm shortlist |
 | CP5 — Quy trình trước/sau | Khổng Ngọc Anh |Vương Thu Thảo| Quy trình + bảng before/after |
 | CP5 — Problem Statement v0 | Khổng Ngọc Anh | Võ Thị Kim Ý | Problem Statement v0 |
 | CP6 — Mức can thiệp + Problem Statement v1 | Võ Thị Kim Ý | Vương Thu Thảo| Ma trận, AI Canvas, eval, Problem Statement v1 |
@@ -65,6 +65,29 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 - `report/team/group_report.md`: Mục 5, Problem Statement v0 và phản biện; commit `bfb26ef`.
 - Commit tích hợp: `8c8a884`, `03fa2a8`, `fcd7774`, `2e415ac`, `a6c43dd`, `2ccffec`, `43ac41d` (merge pull request); `ead08f4` (xóa dấu xung đột merge).
 
+### VoThiKimY-2A202603965
+
+**Phần việc phụ trách:**
+
+- CP1–CP2: Scan problem, xây dựng và phân tích 3 Problem Cards, quy trình nháp trong báo cáo cá nhân.
+- CP3: Chấm điểm shortlist (1–5).
+- CP4: Research giải pháp đã có
+- CP5: Problem Statement v1 + tiêu chí đánh giá.
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- **CP1–CP2:** Viết báo cáo cá nhân với 5+ scan problem và 3 problem cards, phân tích Job Story, quy trình, ước lượng thời gian, bottleneck và success metric.
+- **CP3 – Mục 2.4:** Chấm điểm shortlist (1–5), nêu lý do vì sao chọn candidate và vì sao không chọn 2 candidate còn lại.
+- **CP4 – Mục 3.3:** Tìm kiếm, nghiên cứu các giải pháp hiện có, xem điểm mạnh, khoảng trống và rút ra vấn đề cần lứu ý cho nhóm.
+- **CP6 - Mục 7:** Viết Problem Statement v1 gồm actor, quy trình, bottleneck, impact, success metric và boundary và tiêu chí đánh giá.
+  
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+- `report/individual/2A202603965_VoThiKimY.md`: Mục 2 (CP1), mục 3 (CP2); commit `1da573f`, `d139564`, `16f8110`.
+- `report/team/group_report.md`: Mục 2.4 (CP3); commit `3e5584c`, `627906e`, `eb24ac9`.
+- `report/team/group_report.md`: Mục 3.3 (CP4); commit  `8eb3620`.
+- `report/team/group_report.md`: Mục 7 (CP6); commit`81c8fb8`.
+  
 ### LyHaTranTran-2A202603968
 
 **Phần việc phụ trách:**
