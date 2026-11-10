@@ -25,13 +25,13 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 
 | Checkpoint | Người chính | Người hỗ trợ | Sản phẩm |
 |---|---|---|---|
-| CP3 — Hội tụ nhóm | | | Cluster, cây OST, bảng chấm điểm |
+| CP3 — Hội tụ nhóm | Cả nhóm | | Cluster, cây OST, bảng chấm điểm |
 | CP4 — Kiểm chứng | Lý Hà Trân Trân | | Assumption map, snapshot hoặc survey |
-| CP4 — Research | | | Bảng research có link |
-| CP5 — Quy trình trước/sau | Khổng Ngọc Anh | | Quy trình + bảng before/after |
+| CP4 — Research | Vương Thu Thảo| | Bảng research có link, bảng điểm shortlist |
+| CP5 — Quy trình trước/sau | Khổng Ngọc Anh |Vương Thu Thảo| Quy trình + bảng before/after |
 | CP5 — Problem Statement v0 | Khổng Ngọc Anh | Võ Thị Kim Ý | Problem Statement v0 |
-| CP6 — Mức can thiệp + Problem Statement v1 | Võ Thị Kim Ý | | Ma trận, AI Canvas, eval, Problem Statement v1 |
-| CP6 — Quyết định | Lý Hà Trân Trân | | 4 rủi ro + Go/Not Yet/No-Go |
+| CP6 — Mức can thiệp + Problem Statement v1 | Võ Thị Kim Ý | Vương Thu Thảo| Ma trận, AI Canvas, eval, Problem Statement v1 |
+| CP6 — Quyết định | Lý Hà Trân Trân | Vương Thu Thảo| 4 rủi ro + Go/Not Yet/No-Go |
 
 ## Cá nhân
 
